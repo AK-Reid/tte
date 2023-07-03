@@ -1,0 +1,105 @@
+Prompt: 244 , Output program #: 0
+
+>t3 = n6 + t1
+
+Variable n6 referenced before assignment 
+
+==================================================================
+
+Prompt: 291 , Output program #: 4 
+
+>answer = n5 / t0
+
+Variable n5 referenced before assignment 
+
+==================================================================
+
+Prompt: 362 , Output program #: 1 
+
+>answer = n2 / t2
+
+Div by zero. 
+
+==================================================================
+
+Prompt: 362 , Output program #: 2
+
+>t3 = t2 / n0
+
+Div by zero. 
+
+==================================================================
+
+Prompt: 362 , Output program #: 3
+
+>answer = n2 / t2
+
+Div by 0.
+
+
+==================================================================
+Pattern for prompt 362: Gets stuck trying to divide by 0 repeatedly.
+
+n0 = 40.0
+n1 = 40.0
+n2 = 100.0
+t0 = n0 * 2.0 # = 80
+t1 = n1 * 2.0 # = 80
+
+The names of the variables holding the value "80" change, but regardless these variables are subtracted 
+from each other, 80 - 80, and stored in a variable and the program proceeds to attempt to use that 0 variable as a divisor. 
+
+
+==================================================================
+
+Prompt: 418 , Output program #: 1
+
+>t5 = t4 * t5
+
+Reference before assignment 
+
+==================================================================
+
+Prompt: 418 , Output program #: 2
+
+>t5 = t4 * t5
+
+Reference before assignment 
+
+==================================================================
+
+Prompt: 418 , Output program #: 4
+
+>t5 = t4 * t5
+
+Reference before assignment 
+
+
+==================================================================
+Prompt: 469 , Output program #: 0
+
+t1 = n0 - n2 # = 0
+>answer = t0 / t1
+
+==================================================================
+
+Pattern for prompt 418, variable t5 isn't defined, producing a
+reference before assignment error. It's odd how it gets 
+stuck in this loop with most of the code generations for
+this prompt. 
+
+==================================================================
+
+
+
+Logical Errors Section: 
+
+Prompt 4: Question has an error in formatting potentially, it's using implicit multiplication. The question is also
+implicitly asking for an integer answer. That aside for a moment, the model executes the steps correctly until
+it multiplies the answer by 100 for an unknown reason. Perhaps it things it's trying to calculate a percentage? 
+Regardless if the model didn't multiply by 100 and converted the float to an int, the answer would be correct. 
+
+
+
+
+
