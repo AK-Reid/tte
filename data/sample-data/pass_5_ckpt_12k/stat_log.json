@@ -1,0 +1,5785 @@
+{
+    "pass@5": 72.5438,
+    "problem_wise_stats": {
+        "0": {
+            "Passed Example Tests": 5
+        },
+        "1": {
+            "Passed Example Tests": 5
+        },
+        "2": {
+            "Passed Example Tests": 5
+        },
+        "3": {
+            "Passed Example Tests": 5
+        },
+        "4": {
+            "Wrong Answer": 5
+        },
+        "5": {
+            "Wrong Answer": 5
+        },
+        "6": {
+            "Passed Example Tests": 5
+        },
+        "7": {
+            "Passed Example Tests": 5
+        },
+        "8": {
+            "Wrong Answer": 5
+        },
+        "9": {
+            "Passed Example Tests": 5
+        },
+        "10": {
+            "Wrong Answer": 5
+        },
+        "11": {
+            "Passed Example Tests": 5
+        },
+        "12": {
+            "Passed Example Tests": 5
+        },
+        "13": {
+            "Passed Example Tests": 5
+        },
+        "14": {
+            "Passed Example Tests": 5
+        },
+        "15": {
+            "Passed Example Tests": 5
+        },
+        "16": {
+            "Passed Example Tests": 5
+        },
+        "17": {
+            "Passed Example Tests": 5
+        },
+        "18": {
+            "Passed Example Tests": 5
+        },
+        "19": {
+            "Wrong Answer": 5
+        },
+        "20": {
+            "Passed Example Tests": 5
+        },
+        "21": {
+            "Passed Example Tests": 5
+        },
+        "22": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "23": {
+            "Passed Example Tests": 5
+        },
+        "24": {
+            "Passed Example Tests": 1,
+            "Wrong Answer": 4
+        },
+        "25": {
+            "Passed Example Tests": 5
+        },
+        "26": {
+            "Passed Example Tests": 5
+        },
+        "27": {
+            "Passed Example Tests": 5
+        },
+        "28": {
+            "Passed Example Tests": 5
+        },
+        "29": {
+            "Passed Example Tests": 5
+        },
+        "30": {
+            "Passed Example Tests": 5
+        },
+        "31": {
+            "Wrong Answer": 5
+        },
+        "32": {
+            "Wrong Answer": 5
+        },
+        "33": {
+            "Passed Example Tests": 5
+        },
+        "34": {
+            "Passed Example Tests": 5
+        },
+        "35": {
+            "Wrong Answer": 5
+        },
+        "36": {
+            "Passed Example Tests": 5
+        },
+        "37": {
+            "Passed Example Tests": 5
+        },
+        "38": {
+            "Wrong Answer": 5
+        },
+        "39": {
+            "Passed Example Tests": 5
+        },
+        "40": {
+            "Passed Example Tests": 5
+        },
+        "41": {
+            "Passed Example Tests": 5
+        },
+        "42": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "43": {
+            "Wrong Answer": 2,
+            "Passed Example Tests": 3
+        },
+        "44": {
+            "Wrong Answer": 5
+        },
+        "45": {
+            "Wrong Answer": 5
+        },
+        "46": {
+            "Passed Example Tests": 5
+        },
+        "47": {
+            "Wrong Answer": 5
+        },
+        "48": {
+            "Passed Example Tests": 5
+        },
+        "49": {
+            "Passed Example Tests": 5
+        },
+        "50": {
+            "Passed Example Tests": 5
+        },
+        "51": {
+            "Passed Example Tests": 5
+        },
+        "52": {
+            "Passed Example Tests": 5
+        },
+        "53": {
+            "Wrong Answer": 5
+        },
+        "54": {
+            "Wrong Answer": 5
+        },
+        "55": {
+            "Passed Example Tests": 5
+        },
+        "56": {
+            "Passed Example Tests": 5
+        },
+        "57": {
+            "Passed Example Tests": 5
+        },
+        "58": {
+            "Wrong Answer": 5
+        },
+        "59": {
+            "Passed Example Tests": 5
+        },
+        "60": {
+            "Passed Example Tests": 5
+        },
+        "61": {
+            "Passed Example Tests": 5
+        },
+        "62": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "63": {
+            "Passed Example Tests": 5
+        },
+        "64": {
+            "Passed Example Tests": 5
+        },
+        "65": {
+            "Passed Example Tests": 5
+        },
+        "66": {
+            "Passed Example Tests": 5
+        },
+        "67": {
+            "Passed Example Tests": 5
+        },
+        "68": {
+            "Passed Example Tests": 5
+        },
+        "69": {
+            "Wrong Answer": 5
+        },
+        "70": {
+            "Passed Example Tests": 5
+        },
+        "71": {
+            "Passed Example Tests": 5
+        },
+        "72": {
+            "Passed Example Tests": 5
+        },
+        "73": {
+            "Passed Example Tests": 5
+        },
+        "74": {
+            "Passed Example Tests": 5
+        },
+        "75": {
+            "Passed Example Tests": 5
+        },
+        "76": {
+            "Passed Example Tests": 5
+        },
+        "77": {
+            "Passed Example Tests": 5
+        },
+        "78": {
+            "Passed Example Tests": 5
+        },
+        "79": {
+            "Passed Example Tests": 5
+        },
+        "80": {
+            "Passed Example Tests": 5
+        },
+        "81": {
+            "Wrong Answer": 5
+        },
+        "82": {
+            "Wrong Answer": 5
+        },
+        "83": {
+            "Passed Example Tests": 5
+        },
+        "84": {
+            "Wrong Answer": 5
+        },
+        "85": {
+            "Passed Example Tests": 5
+        },
+        "86": {
+            "Passed Example Tests": 5
+        },
+        "87": {
+            "Passed Example Tests": 5
+        },
+        "88": {
+            "Wrong Answer": 5
+        },
+        "89": {
+            "Wrong Answer": 5
+        },
+        "90": {
+            "Passed Example Tests": 5
+        },
+        "91": {
+            "Passed Example Tests": 5
+        },
+        "92": {
+            "Passed Example Tests": 5
+        },
+        "93": {
+            "Wrong Answer": 5
+        },
+        "94": {
+            "Passed Example Tests": 5
+        },
+        "95": {
+            "Passed Example Tests": 1,
+            "Wrong Answer": 4
+        },
+        "96": {
+            "Passed Example Tests": 5
+        },
+        "97": {
+            "Wrong Answer": 5
+        },
+        "98": {
+            "Wrong Answer": 5
+        },
+        "99": {
+            "Passed Example Tests": 5
+        },
+        "100": {
+            "Passed Example Tests": 5
+        },
+        "101": {
+            "Passed Example Tests": 5
+        },
+        "102": {
+            "Passed Example Tests": 5
+        },
+        "103": {
+            "Passed Example Tests": 5
+        },
+        "104": {
+            "Passed Example Tests": 5
+        },
+        "105": {
+            "Passed Example Tests": 5
+        },
+        "106": {
+            "Passed Example Tests": 5
+        },
+        "107": {
+            "Passed Example Tests": 5
+        },
+        "108": {
+            "Passed Example Tests": 5
+        },
+        "109": {
+            "Passed Example Tests": 5
+        },
+        "110": {
+            "Passed Example Tests": 5
+        },
+        "111": {
+            "Passed Example Tests": 5
+        },
+        "112": {
+            "Passed Example Tests": 5
+        },
+        "113": {
+            "Passed Example Tests": 5
+        },
+        "114": {
+            "Wrong Answer": 5
+        },
+        "115": {
+            "Passed Example Tests": 5
+        },
+        "116": {
+            "Passed Example Tests": 5
+        },
+        "117": {
+            "Wrong Answer": 5
+        },
+        "118": {
+            "Passed Example Tests": 5
+        },
+        "119": {
+            "Wrong Answer": 5
+        },
+        "120": {
+            "Wrong Answer": 5
+        },
+        "121": {
+            "Passed Example Tests": 5
+        },
+        "122": {
+            "Wrong Answer": 5
+        },
+        "123": {
+            "Wrong Answer": 5
+        },
+        "124": {
+            "Wrong Answer": 5
+        },
+        "125": {
+            "Passed Example Tests": 5
+        },
+        "126": {
+            "Passed Example Tests": 5
+        },
+        "127": {
+            "Passed Example Tests": 5
+        },
+        "128": {
+            "Wrong Answer": 5
+        },
+        "129": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "130": {
+            "Wrong Answer": 5
+        },
+        "131": {
+            "Passed Example Tests": 5
+        },
+        "132": {
+            "Passed Example Tests": 5
+        },
+        "133": {
+            "Passed Example Tests": 5
+        },
+        "134": {
+            "Passed Example Tests": 5
+        },
+        "135": {
+            "Passed Example Tests": 5
+        },
+        "136": {
+            "Passed Example Tests": 5
+        },
+        "137": {
+            "Passed Example Tests": 5
+        },
+        "138": {
+            "Passed Example Tests": 5
+        },
+        "139": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "140": {
+            "Wrong Answer": 5
+        },
+        "141": {
+            "Wrong Answer": 5
+        },
+        "142": {
+            "Passed Example Tests": 5
+        },
+        "143": {
+            "Wrong Answer": 5
+        },
+        "144": {
+            "Passed Example Tests": 5
+        },
+        "145": {
+            "Passed Example Tests": 5
+        },
+        "146": {
+            "Passed Example Tests": 5
+        },
+        "147": {
+            "Passed Example Tests": 5
+        },
+        "148": {
+            "Passed Example Tests": 5
+        },
+        "149": {
+            "Passed Example Tests": 5
+        },
+        "150": {
+            "Passed Example Tests": 5
+        },
+        "151": {
+            "Passed Example Tests": 5
+        },
+        "152": {
+            "Wrong Answer": 5
+        },
+        "153": {
+            "Wrong Answer": 5
+        },
+        "154": {
+            "Passed Example Tests": 5
+        },
+        "155": {
+            "Wrong Answer": 5
+        },
+        "156": {
+            "Passed Example Tests": 5
+        },
+        "157": {
+            "Passed Example Tests": 5
+        },
+        "158": {
+            "Passed Example Tests": 5
+        },
+        "159": {
+            "Wrong Answer": 5
+        },
+        "160": {
+            "Wrong Answer": 5
+        },
+        "161": {
+            "Passed Example Tests": 5
+        },
+        "162": {
+            "Passed Example Tests": 5
+        },
+        "163": {
+            "Passed Example Tests": 5
+        },
+        "164": {
+            "Passed Example Tests": 5
+        },
+        "165": {
+            "Passed Example Tests": 5
+        },
+        "166": {
+            "Passed Example Tests": 5
+        },
+        "167": {
+            "Passed Example Tests": 5
+        },
+        "168": {
+            "Passed Example Tests": 5
+        },
+        "169": {
+            "Wrong Answer": 5
+        },
+        "170": {
+            "Passed Example Tests": 5
+        },
+        "171": {
+            "Wrong Answer": 5
+        },
+        "172": {
+            "Passed Example Tests": 5
+        },
+        "173": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "174": {
+            "Passed Example Tests": 5
+        },
+        "175": {
+            "Passed Example Tests": 5
+        },
+        "176": {
+            "Passed Example Tests": 5
+        },
+        "177": {
+            "Passed Example Tests": 5
+        },
+        "178": {
+            "Passed Example Tests": 5
+        },
+        "179": {
+            "Passed Example Tests": 5
+        },
+        "180": {
+            "Passed Example Tests": 5
+        },
+        "181": {
+            "Passed Example Tests": 5
+        },
+        "182": {
+            "Wrong Answer": 5
+        },
+        "183": {
+            "Passed Example Tests": 5
+        },
+        "184": {
+            "Passed Example Tests": 5
+        },
+        "185": {
+            "Passed Example Tests": 5
+        },
+        "186": {
+            "Passed Example Tests": 5
+        },
+        "187": {
+            "Wrong Answer": 5
+        },
+        "188": {
+            "Passed Example Tests": 3,
+            "Wrong Answer": 2
+        },
+        "189": {
+            "Wrong Answer": 5
+        },
+        "190": {
+            "Passed Example Tests": 5
+        },
+        "191": {
+            "Wrong Answer": 5
+        },
+        "192": {
+            "Passed Example Tests": 5
+        },
+        "193": {
+            "Passed Example Tests": 5
+        },
+        "194": {
+            "Passed Example Tests": 5
+        },
+        "195": {
+            "Passed Example Tests": 5
+        },
+        "196": {
+            "Passed Example Tests": 5
+        },
+        "197": {
+            "Passed Example Tests": 5
+        },
+        "198": {
+            "Wrong Answer": 5
+        },
+        "199": {
+            "Passed Example Tests": 5
+        },
+        "200": {
+            "Passed Example Tests": 5
+        },
+        "201": {
+            "Passed Example Tests": 5
+        },
+        "202": {
+            "Passed Example Tests": 5
+        },
+        "203": {
+            "Passed Example Tests": 5
+        },
+        "204": {
+            "Wrong Answer": 5
+        },
+        "205": {
+            "Passed Example Tests": 5
+        },
+        "206": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "207": {
+            "Passed Example Tests": 5
+        },
+        "208": {
+            "Passed Example Tests": 5
+        },
+        "209": {
+            "Wrong Answer": 5
+        },
+        "210": {
+            "Wrong Answer": 5
+        },
+        "211": {
+            "Passed Example Tests": 3,
+            "Wrong Answer": 2
+        },
+        "212": {
+            "Passed Example Tests": 5
+        },
+        "213": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "214": {
+            "Wrong Answer": 5
+        },
+        "215": {
+            "Passed Example Tests": 5
+        },
+        "216": {
+            "Wrong Answer": 5
+        },
+        "217": {
+            "Passed Example Tests": 5
+        },
+        "218": {
+            "Passed Example Tests": 5
+        },
+        "219": {
+            "Passed Example Tests": 5
+        },
+        "220": {
+            "Passed Example Tests": 5
+        },
+        "221": {
+            "Passed Example Tests": 5
+        },
+        "222": {
+            "Passed Example Tests": 5
+        },
+        "223": {
+            "Passed Example Tests": 5
+        },
+        "224": {
+            "Passed Example Tests": 5
+        },
+        "225": {
+            "Passed Example Tests": 5
+        },
+        "226": {
+            "Passed Example Tests": 5
+        },
+        "227": {
+            "Passed Example Tests": 5
+        },
+        "228": {
+            "Wrong Answer": 5
+        },
+        "229": {
+            "Passed Example Tests": 5
+        },
+        "230": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "231": {
+            "Passed Example Tests": 5
+        },
+        "232": {
+            "Passed Example Tests": 5
+        },
+        "233": {
+            "Wrong Answer": 5
+        },
+        "234": {
+            "Passed Example Tests": 5
+        },
+        "235": {
+            "Passed Example Tests": 5
+        },
+        "236": {
+            "Passed Example Tests": 1,
+            "Wrong Answer": 4
+        },
+        "237": {
+            "Passed Example Tests": 5
+        },
+        "238": {
+            "Wrong Answer": 5
+        },
+        "239": {
+            "Passed Example Tests": 5
+        },
+        "240": {
+            "Passed Example Tests": 5
+        },
+        "241": {
+            "Passed Example Tests": 5
+        },
+        "242": {
+            "Passed Example Tests": 5
+        },
+        "243": {
+            "Passed Example Tests": 5
+        },
+        "244": {
+            "Runtime Error": 1,
+            "Wrong Answer": 4
+        },
+        "245": {
+            "Passed Example Tests": 5
+        },
+        "246": {
+            "Passed Example Tests": 5
+        },
+        "247": {
+            "Passed Example Tests": 5
+        },
+        "248": {
+            "Passed Example Tests": 5
+        },
+        "249": {
+            "Passed Example Tests": 5
+        },
+        "250": {
+            "Passed Example Tests": 5
+        },
+        "251": {
+            "Passed Example Tests": 5
+        },
+        "252": {
+            "Passed Example Tests": 5
+        },
+        "253": {
+            "Passed Example Tests": 5
+        },
+        "254": {
+            "Wrong Answer": 5
+        },
+        "255": {
+            "Wrong Answer": 5
+        },
+        "256": {
+            "Passed Example Tests": 5
+        },
+        "257": {
+            "Wrong Answer": 5
+        },
+        "258": {
+            "Passed Example Tests": 5
+        },
+        "259": {
+            "Passed Example Tests": 5
+        },
+        "260": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "261": {
+            "Passed Example Tests": 5
+        },
+        "262": {
+            "Passed Example Tests": 5
+        },
+        "263": {
+            "Passed Example Tests": 5
+        },
+        "264": {
+            "Passed Example Tests": 5
+        },
+        "265": {
+            "Passed Example Tests": 5
+        },
+        "266": {
+            "Passed Example Tests": 5
+        },
+        "267": {
+            "Passed Example Tests": 5
+        },
+        "268": {
+            "Passed Example Tests": 5
+        },
+        "269": {
+            "Wrong Answer": 5
+        },
+        "270": {
+            "Passed Example Tests": 5
+        },
+        "271": {
+            "Passed Example Tests": 5
+        },
+        "272": {
+            "Passed Example Tests": 5
+        },
+        "273": {
+            "Passed Example Tests": 5
+        },
+        "274": {
+            "Passed Example Tests": 5
+        },
+        "275": {
+            "Passed Example Tests": 5
+        },
+        "276": {
+            "Passed Example Tests": 5
+        },
+        "277": {
+            "Wrong Answer": 5
+        },
+        "278": {
+            "Wrong Answer": 5
+        },
+        "279": {
+            "Passed Example Tests": 5
+        },
+        "280": {
+            "Wrong Answer": 5
+        },
+        "281": {
+            "Passed Example Tests": 5
+        },
+        "282": {
+            "Passed Example Tests": 5
+        },
+        "283": {
+            "Wrong Answer": 5
+        },
+        "284": {
+            "Passed Example Tests": 5
+        },
+        "285": {
+            "Passed Example Tests": 5
+        },
+        "286": {
+            "Passed Example Tests": 5
+        },
+        "287": {
+            "Passed Example Tests": 5
+        },
+        "288": {
+            "Wrong Answer": 5
+        },
+        "289": {
+            "Wrong Answer": 5
+        },
+        "290": {
+            "Passed Example Tests": 5
+        },
+        "291": {
+            "Passed Example Tests": 4,
+            "Runtime Error": 1
+        },
+        "292": {
+            "Wrong Answer": 5
+        },
+        "293": {
+            "Wrong Answer": 5
+        },
+        "294": {
+            "Passed Example Tests": 5
+        },
+        "295": {
+            "Passed Example Tests": 5
+        },
+        "296": {
+            "Wrong Answer": 5
+        },
+        "297": {
+            "Passed Example Tests": 5
+        },
+        "298": {
+            "Passed Example Tests": 5
+        },
+        "299": {
+            "Wrong Answer": 5
+        },
+        "300": {
+            "Wrong Answer": 2,
+            "Passed Example Tests": 3
+        },
+        "301": {
+            "Wrong Answer": 5
+        },
+        "302": {
+            "Passed Example Tests": 5
+        },
+        "303": {
+            "Passed Example Tests": 5
+        },
+        "304": {
+            "Passed Example Tests": 5
+        },
+        "305": {
+            "Wrong Answer": 5
+        },
+        "306": {
+            "Passed Example Tests": 5
+        },
+        "307": {
+            "Wrong Answer": 5
+        },
+        "308": {
+            "Passed Example Tests": 5
+        },
+        "309": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "310": {
+            "Passed Example Tests": 5
+        },
+        "311": {
+            "Passed Example Tests": 5
+        },
+        "312": {
+            "Passed Example Tests": 5
+        },
+        "313": {
+            "Passed Example Tests": 5
+        },
+        "314": {
+            "Passed Example Tests": 5
+        },
+        "315": {
+            "Passed Example Tests": 5
+        },
+        "316": {
+            "Passed Example Tests": 5
+        },
+        "317": {
+            "Wrong Answer": 5
+        },
+        "318": {
+            "Wrong Answer": 5
+        },
+        "319": {
+            "Wrong Answer": 5
+        },
+        "320": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "321": {
+            "Passed Example Tests": 5
+        },
+        "322": {
+            "Passed Example Tests": 5
+        },
+        "323": {
+            "Passed Example Tests": 5
+        },
+        "324": {
+            "Wrong Answer": 5
+        },
+        "325": {
+            "Passed Example Tests": 5
+        },
+        "326": {
+            "Wrong Answer": 5
+        },
+        "327": {
+            "Wrong Answer": 5
+        },
+        "328": {
+            "Passed Example Tests": 5
+        },
+        "329": {
+            "Wrong Answer": 5
+        },
+        "330": {
+            "Wrong Answer": 5
+        },
+        "331": {
+            "Passed Example Tests": 5
+        },
+        "332": {
+            "Wrong Answer": 5
+        },
+        "333": {
+            "Passed Example Tests": 5
+        },
+        "334": {
+            "Passed Example Tests": 5
+        },
+        "335": {
+            "Wrong Answer": 5
+        },
+        "336": {
+            "Passed Example Tests": 5
+        },
+        "337": {
+            "Passed Example Tests": 5
+        },
+        "338": {
+            "Passed Example Tests": 5
+        },
+        "339": {
+            "Wrong Answer": 5
+        },
+        "340": {
+            "Passed Example Tests": 5
+        },
+        "341": {
+            "Wrong Answer": 5
+        },
+        "342": {
+            "Wrong Answer": 5
+        },
+        "343": {
+            "Passed Example Tests": 5
+        },
+        "344": {
+            "Passed Example Tests": 5
+        },
+        "345": {
+            "Wrong Answer": 5
+        },
+        "346": {
+            "Wrong Answer": 5
+        },
+        "347": {
+            "Passed Example Tests": 5
+        },
+        "348": {
+            "Passed Example Tests": 5
+        },
+        "349": {
+            "Passed Example Tests": 5
+        },
+        "350": {
+            "Wrong Answer": 5
+        },
+        "351": {
+            "Passed Example Tests": 5
+        },
+        "352": {
+            "Wrong Answer": 5
+        },
+        "353": {
+            "Passed Example Tests": 5
+        },
+        "354": {
+            "Passed Example Tests": 5
+        },
+        "355": {
+            "Passed Example Tests": 5
+        },
+        "356": {
+            "Passed Example Tests": 5
+        },
+        "357": {
+            "Wrong Answer": 5
+        },
+        "358": {
+            "Wrong Answer": 5
+        },
+        "359": {
+            "Passed Example Tests": 5
+        },
+        "360": {
+            "Passed Example Tests": 5
+        },
+        "361": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "362": {
+            "Wrong Answer": 2,
+            "Runtime Error": 3
+        },
+        "363": {
+            "Passed Example Tests": 5
+        },
+        "364": {
+            "Wrong Answer": 5
+        },
+        "365": {
+            "Passed Example Tests": 5
+        },
+        "366": {
+            "Passed Example Tests": 5
+        },
+        "367": {
+            "Passed Example Tests": 5
+        },
+        "368": {
+            "Wrong Answer": 5
+        },
+        "369": {
+            "Passed Example Tests": 5
+        },
+        "370": {
+            "Wrong Answer": 5
+        },
+        "371": {
+            "Passed Example Tests": 5
+        },
+        "372": {
+            "Passed Example Tests": 5
+        },
+        "373": {
+            "Wrong Answer": 5
+        },
+        "374": {
+            "Passed Example Tests": 5
+        },
+        "375": {
+            "Passed Example Tests": 5
+        },
+        "376": {
+            "Wrong Answer": 5
+        },
+        "377": {
+            "Passed Example Tests": 5
+        },
+        "378": {
+            "Wrong Answer": 5
+        },
+        "379": {
+            "Passed Example Tests": 5
+        },
+        "380": {
+            "Passed Example Tests": 5
+        },
+        "381": {
+            "Wrong Answer": 5
+        },
+        "382": {
+            "Passed Example Tests": 5
+        },
+        "383": {
+            "Wrong Answer": 5
+        },
+        "384": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "385": {
+            "Wrong Answer": 5
+        },
+        "386": {
+            "Wrong Answer": 5
+        },
+        "387": {
+            "Passed Example Tests": 5
+        },
+        "388": {
+            "Passed Example Tests": 5
+        },
+        "389": {
+            "Passed Example Tests": 5
+        },
+        "390": {
+            "Wrong Answer": 5
+        },
+        "391": {
+            "Wrong Answer": 5
+        },
+        "392": {
+            "Wrong Answer": 5
+        },
+        "393": {
+            "Passed Example Tests": 5
+        },
+        "394": {
+            "Wrong Answer": 5
+        },
+        "395": {
+            "Passed Example Tests": 5
+        },
+        "396": {
+            "Passed Example Tests": 5
+        },
+        "397": {
+            "Wrong Answer": 5
+        },
+        "398": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "399": {
+            "Wrong Answer": 5
+        },
+        "400": {
+            "Passed Example Tests": 5
+        },
+        "401": {
+            "Passed Example Tests": 5
+        },
+        "402": {
+            "Passed Example Tests": 3,
+            "Wrong Answer": 2
+        },
+        "403": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "404": {
+            "Passed Example Tests": 5
+        },
+        "405": {
+            "Passed Example Tests": 5
+        },
+        "406": {
+            "Passed Example Tests": 5
+        },
+        "407": {
+            "Passed Example Tests": 5
+        },
+        "408": {
+            "Passed Example Tests": 5
+        },
+        "409": {
+            "Wrong Answer": 5
+        },
+        "410": {
+            "Wrong Answer": 5
+        },
+        "411": {
+            "Passed Example Tests": 5
+        },
+        "412": {
+            "Passed Example Tests": 5
+        },
+        "413": {
+            "Wrong Answer": 5
+        },
+        "414": {
+            "Passed Example Tests": 5
+        },
+        "415": {
+            "Passed Example Tests": 5
+        },
+        "416": {
+            "Wrong Answer": 5
+        },
+        "417": {
+            "Wrong Answer": 5
+        },
+        "418": {
+            "Passed Example Tests": 2,
+            "Runtime Error": 3
+        },
+        "419": {
+            "Wrong Answer": 5
+        },
+        "420": {
+            "Wrong Answer": 5
+        },
+        "421": {
+            "Passed Example Tests": 5
+        },
+        "422": {
+            "Passed Example Tests": 5
+        },
+        "423": {
+            "Wrong Answer": 5
+        },
+        "424": {
+            "Passed Example Tests": 5
+        },
+        "425": {
+            "Passed Example Tests": 5
+        },
+        "426": {
+            "Passed Example Tests": 5
+        },
+        "427": {
+            "Wrong Answer": 5
+        },
+        "428": {
+            "Wrong Answer": 5
+        },
+        "429": {
+            "Passed Example Tests": 5
+        },
+        "430": {
+            "Wrong Answer": 5
+        },
+        "431": {
+            "Wrong Answer": 5
+        },
+        "432": {
+            "Passed Example Tests": 5
+        },
+        "433": {
+            "Passed Example Tests": 5
+        },
+        "434": {
+            "Wrong Answer": 5
+        },
+        "435": {
+            "Passed Example Tests": 5
+        },
+        "436": {
+            "Passed Example Tests": 5
+        },
+        "437": {
+            "Passed Example Tests": 5
+        },
+        "438": {
+            "Passed Example Tests": 5
+        },
+        "439": {
+            "Passed Example Tests": 5
+        },
+        "440": {
+            "Wrong Answer": 5
+        },
+        "441": {
+            "Wrong Answer": 5
+        },
+        "442": {
+            "Passed Example Tests": 5
+        },
+        "443": {
+            "Wrong Answer": 5
+        },
+        "444": {
+            "Passed Example Tests": 5
+        },
+        "445": {
+            "Passed Example Tests": 5
+        },
+        "446": {
+            "Passed Example Tests": 5
+        },
+        "447": {
+            "Passed Example Tests": 5
+        },
+        "448": {
+            "Passed Example Tests": 5
+        },
+        "449": {
+            "Passed Example Tests": 5
+        },
+        "450": {
+            "Passed Example Tests": 5
+        },
+        "451": {
+            "Passed Example Tests": 5
+        },
+        "452": {
+            "Passed Example Tests": 5
+        },
+        "453": {
+            "Wrong Answer": 1,
+            "Passed Example Tests": 4
+        },
+        "454": {
+            "Passed Example Tests": 5
+        },
+        "455": {
+            "Passed Example Tests": 5
+        },
+        "456": {
+            "Passed Example Tests": 5
+        },
+        "457": {
+            "Passed Example Tests": 5
+        },
+        "458": {
+            "Passed Example Tests": 5
+        },
+        "459": {
+            "Passed Example Tests": 5
+        },
+        "460": {
+            "Passed Example Tests": 5
+        },
+        "461": {
+            "Wrong Answer": 5
+        },
+        "462": {
+            "Wrong Answer": 5
+        },
+        "463": {
+            "Passed Example Tests": 5
+        },
+        "464": {
+            "Passed Example Tests": 5
+        },
+        "465": {
+            "Passed Example Tests": 5
+        },
+        "466": {
+            "Passed Example Tests": 5
+        },
+        "467": {
+            "Wrong Answer": 5
+        },
+        "468": {
+            "Wrong Answer": 5
+        },
+        "469": {
+            "Runtime Error": 5
+        },
+        "470": {
+            "Wrong Answer": 5
+        },
+        "471": {
+            "Passed Example Tests": 5
+        },
+        "472": {
+            "Passed Example Tests": 5
+        },
+        "473": {
+            "Passed Example Tests": 5
+        },
+        "474": {
+            "Wrong Answer": 5
+        },
+        "475": {
+            "Wrong Answer": 5
+        },
+        "476": {
+            "Wrong Answer": 5
+        },
+        "477": {
+            "Passed Example Tests": 5
+        },
+        "478": {
+            "Passed Example Tests": 5
+        },
+        "479": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "480": {
+            "Passed Example Tests": 5
+        },
+        "481": {
+            "Passed Example Tests": 5
+        },
+        "482": {
+            "Passed Example Tests": 5
+        },
+        "483": {
+            "Passed Example Tests": 5
+        },
+        "484": {
+            "Passed Example Tests": 5
+        },
+        "485": {
+            "Passed Example Tests": 5
+        },
+        "486": {
+            "Wrong Answer": 5
+        },
+        "487": {
+            "Wrong Answer": 5
+        },
+        "488": {
+            "Wrong Answer": 5
+        },
+        "489": {
+            "Passed Example Tests": 5
+        },
+        "490": {
+            "Passed Example Tests": 5
+        },
+        "491": {
+            "Passed Example Tests": 5
+        },
+        "492": {
+            "Wrong Answer": 5
+        },
+        "493": {
+            "Passed Example Tests": 5
+        },
+        "494": {
+            "Wrong Answer": 5
+        },
+        "495": {
+            "Passed Example Tests": 5
+        },
+        "496": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "497": {
+            "Passed Example Tests": 5
+        },
+        "498": {
+            "Passed Example Tests": 5
+        },
+        "499": {
+            "Wrong Answer": 5
+        },
+        "500": {
+            "Wrong Answer": 5
+        },
+        "501": {
+            "Wrong Answer": 5
+        },
+        "502": {
+            "Passed Example Tests": 5
+        },
+        "503": {
+            "Wrong Answer": 5
+        },
+        "504": {
+            "Wrong Answer": 5
+        },
+        "505": {
+            "Passed Example Tests": 5
+        },
+        "506": {
+            "Passed Example Tests": 5
+        },
+        "507": {
+            "Wrong Answer": 5
+        },
+        "508": {
+            "Passed Example Tests": 5
+        },
+        "509": {
+            "Passed Example Tests": 5
+        },
+        "510": {
+            "Passed Example Tests": 5
+        },
+        "511": {
+            "Wrong Answer": 4,
+            "Runtime Error": 1
+        },
+        "512": {
+            "Passed Example Tests": 5
+        },
+        "513": {
+            "Passed Example Tests": 5
+        },
+        "514": {
+            "Wrong Answer": 5
+        },
+        "515": {
+            "Wrong Answer": 5
+        },
+        "516": {
+            "Passed Example Tests": 5
+        },
+        "517": {
+            "Wrong Answer": 2,
+            "Passed Example Tests": 3
+        },
+        "518": {
+            "Passed Example Tests": 5
+        },
+        "519": {
+            "Passed Example Tests": 5
+        },
+        "520": {
+            "Wrong Answer": 5
+        },
+        "521": {
+            "Wrong Answer": 5
+        },
+        "522": {
+            "Passed Example Tests": 5
+        },
+        "523": {
+            "Passed Example Tests": 5
+        },
+        "524": {
+            "Passed Example Tests": 5
+        },
+        "525": {
+            "Passed Example Tests": 5
+        },
+        "526": {
+            "Passed Example Tests": 5
+        },
+        "527": {
+            "Passed Example Tests": 5
+        },
+        "528": {
+            "Passed Example Tests": 5
+        },
+        "529": {
+            "Passed Example Tests": 5
+        },
+        "530": {
+            "Passed Example Tests": 5
+        },
+        "531": {
+            "Passed Example Tests": 5
+        },
+        "532": {
+            "Passed Example Tests": 5
+        },
+        "533": {
+            "Passed Example Tests": 5
+        },
+        "534": {
+            "Wrong Answer": 5
+        },
+        "535": {
+            "Passed Example Tests": 5
+        },
+        "536": {
+            "Passed Example Tests": 5
+        },
+        "537": {
+            "Passed Example Tests": 5
+        },
+        "538": {
+            "Passed Example Tests": 5
+        },
+        "539": {
+            "Wrong Answer": 5
+        },
+        "540": {
+            "Wrong Answer": 5
+        },
+        "541": {
+            "Wrong Answer": 5
+        },
+        "542": {
+            "Passed Example Tests": 5
+        },
+        "543": {
+            "Passed Example Tests": 5
+        },
+        "544": {
+            "Passed Example Tests": 5
+        },
+        "545": {
+            "Wrong Answer": 5
+        },
+        "546": {
+            "Passed Example Tests": 5
+        },
+        "547": {
+            "Passed Example Tests": 5
+        },
+        "548": {
+            "Passed Example Tests": 5
+        },
+        "549": {
+            "Passed Example Tests": 5
+        },
+        "550": {
+            "Wrong Answer": 5
+        },
+        "551": {
+            "Passed Example Tests": 5
+        },
+        "552": {
+            "Wrong Answer": 5
+        },
+        "553": {
+            "Passed Example Tests": 5
+        },
+        "554": {
+            "Passed Example Tests": 5
+        },
+        "555": {
+            "Wrong Answer": 5
+        },
+        "556": {
+            "Passed Example Tests": 5
+        },
+        "557": {
+            "Passed Example Tests": 5
+        },
+        "558": {
+            "Passed Example Tests": 5
+        },
+        "559": {
+            "Passed Example Tests": 5
+        },
+        "560": {
+            "Passed Example Tests": 5
+        },
+        "561": {
+            "Passed Example Tests": 5
+        },
+        "562": {
+            "Passed Example Tests": 5
+        },
+        "563": {
+            "Passed Example Tests": 5
+        },
+        "564": {
+            "Passed Example Tests": 5
+        },
+        "565": {
+            "Passed Example Tests": 5
+        },
+        "566": {
+            "Passed Example Tests": 5
+        },
+        "567": {
+            "Passed Example Tests": 5
+        },
+        "568": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "569": {
+            "Passed Example Tests": 5
+        },
+        "570": {
+            "Passed Example Tests": 5
+        },
+        "571": {
+            "Passed Example Tests": 5
+        },
+        "572": {
+            "Passed Example Tests": 5
+        },
+        "573": {
+            "Passed Example Tests": 5
+        },
+        "574": {
+            "Passed Example Tests": 5
+        },
+        "575": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "576": {
+            "Wrong Answer": 5
+        },
+        "577": {
+            "Wrong Answer": 5
+        },
+        "578": {
+            "Passed Example Tests": 5
+        },
+        "579": {
+            "Passed Example Tests": 5
+        },
+        "580": {
+            "Passed Example Tests": 5
+        },
+        "581": {
+            "Wrong Answer": 5
+        },
+        "582": {
+            "Passed Example Tests": 5
+        },
+        "583": {
+            "Passed Example Tests": 5
+        },
+        "584": {
+            "Wrong Answer": 5
+        },
+        "585": {
+            "Passed Example Tests": 5
+        },
+        "586": {
+            "Passed Example Tests": 5
+        },
+        "587": {
+            "Passed Example Tests": 5
+        },
+        "588": {
+            "Wrong Answer": 5
+        },
+        "589": {
+            "Passed Example Tests": 5
+        },
+        "590": {
+            "Passed Example Tests": 5
+        },
+        "591": {
+            "Passed Example Tests": 5
+        },
+        "592": {
+            "Passed Example Tests": 5
+        },
+        "593": {
+            "Passed Example Tests": 5
+        },
+        "594": {
+            "Passed Example Tests": 5
+        },
+        "595": {
+            "Passed Example Tests": 5
+        },
+        "596": {
+            "Passed Example Tests": 3,
+            "Wrong Answer": 2
+        },
+        "597": {
+            "Wrong Answer": 5
+        },
+        "598": {
+            "Passed Example Tests": 5
+        },
+        "599": {
+            "Passed Example Tests": 5
+        },
+        "600": {
+            "Wrong Answer": 5
+        },
+        "601": {
+            "Passed Example Tests": 5
+        },
+        "602": {
+            "Passed Example Tests": 5
+        },
+        "603": {
+            "Passed Example Tests": 5
+        },
+        "604": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "605": {
+            "Passed Example Tests": 5
+        },
+        "606": {
+            "Wrong Answer": 5
+        },
+        "607": {
+            "Passed Example Tests": 5
+        },
+        "608": {
+            "Passed Example Tests": 5
+        },
+        "609": {
+            "Passed Example Tests": 5
+        },
+        "610": {
+            "Passed Example Tests": 5
+        },
+        "611": {
+            "Passed Example Tests": 5
+        },
+        "612": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "613": {
+            "Passed Example Tests": 5
+        },
+        "614": {
+            "Passed Example Tests": 5
+        },
+        "615": {
+            "Passed Example Tests": 5
+        },
+        "616": {
+            "Passed Example Tests": 5
+        },
+        "617": {
+            "Passed Example Tests": 5
+        },
+        "618": {
+            "Wrong Answer": 1,
+            "Passed Example Tests": 4
+        },
+        "619": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "620": {
+            "Wrong Answer": 5
+        },
+        "621": {
+            "Passed Example Tests": 5
+        },
+        "622": {
+            "Passed Example Tests": 5
+        },
+        "623": {
+            "Passed Example Tests": 5
+        },
+        "624": {
+            "Wrong Answer": 5
+        },
+        "625": {
+            "Passed Example Tests": 5
+        },
+        "626": {
+            "Passed Example Tests": 5
+        },
+        "627": {
+            "Passed Example Tests": 5
+        },
+        "628": {
+            "Passed Example Tests": 5
+        },
+        "629": {
+            "Passed Example Tests": 5
+        },
+        "630": {
+            "Wrong Answer": 5
+        },
+        "631": {
+            "Wrong Answer": 5
+        },
+        "632": {
+            "Passed Example Tests": 5
+        },
+        "633": {
+            "Passed Example Tests": 5
+        },
+        "634": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "635": {
+            "Passed Example Tests": 5
+        },
+        "636": {
+            "Passed Example Tests": 5
+        },
+        "637": {
+            "Passed Example Tests": 5
+        },
+        "638": {
+            "Wrong Answer": 5
+        },
+        "639": {
+            "Wrong Answer": 5
+        },
+        "640": {
+            "Wrong Answer": 5
+        },
+        "641": {
+            "Passed Example Tests": 5
+        },
+        "642": {
+            "Passed Example Tests": 5
+        },
+        "643": {
+            "Wrong Answer": 5
+        },
+        "644": {
+            "Passed Example Tests": 5
+        },
+        "645": {
+            "Passed Example Tests": 5
+        },
+        "646": {
+            "Passed Example Tests": 5
+        },
+        "647": {
+            "Wrong Answer": 5
+        },
+        "648": {
+            "Wrong Answer": 5
+        },
+        "649": {
+            "Passed Example Tests": 5
+        },
+        "650": {
+            "Wrong Answer": 5
+        },
+        "651": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "652": {
+            "Passed Example Tests": 5
+        },
+        "653": {
+            "Wrong Answer": 2,
+            "Passed Example Tests": 3
+        },
+        "654": {
+            "Passed Example Tests": 5
+        },
+        "655": {
+            "Wrong Answer": 5
+        },
+        "656": {
+            "Wrong Answer": 5
+        },
+        "657": {
+            "Passed Example Tests": 5
+        },
+        "658": {
+            "Passed Example Tests": 5
+        },
+        "659": {
+            "Passed Example Tests": 5
+        },
+        "660": {
+            "Wrong Answer": 5
+        },
+        "661": {
+            "Passed Example Tests": 5
+        },
+        "662": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "663": {
+            "Passed Example Tests": 5
+        },
+        "664": {
+            "Passed Example Tests": 5
+        },
+        "665": {
+            "Passed Example Tests": 5
+        },
+        "666": {
+            "Wrong Answer": 5
+        },
+        "667": {
+            "Wrong Answer": 5
+        },
+        "668": {
+            "Passed Example Tests": 5
+        },
+        "669": {
+            "Passed Example Tests": 5
+        },
+        "670": {
+            "Wrong Answer": 5
+        },
+        "671": {
+            "Wrong Answer": 5
+        },
+        "672": {
+            "Wrong Answer": 5
+        },
+        "673": {
+            "Passed Example Tests": 5
+        },
+        "674": {
+            "Passed Example Tests": 5
+        },
+        "675": {
+            "Passed Example Tests": 5
+        },
+        "676": {
+            "Passed Example Tests": 5
+        },
+        "677": {
+            "Passed Example Tests": 5
+        },
+        "678": {
+            "Passed Example Tests": 5
+        },
+        "679": {
+            "Passed Example Tests": 5
+        },
+        "680": {
+            "Passed Example Tests": 5
+        },
+        "681": {
+            "Passed Example Tests": 5
+        },
+        "682": {
+            "Passed Example Tests": 5
+        },
+        "683": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "684": {
+            "Passed Example Tests": 5
+        },
+        "685": {
+            "Wrong Answer": 5
+        },
+        "686": {
+            "Wrong Answer": 5
+        },
+        "687": {
+            "Passed Example Tests": 5
+        },
+        "688": {
+            "Passed Example Tests": 5
+        },
+        "689": {
+            "Wrong Answer": 5
+        },
+        "690": {
+            "Wrong Answer": 5
+        },
+        "691": {
+            "Passed Example Tests": 5
+        },
+        "692": {
+            "Passed Example Tests": 5
+        },
+        "693": {
+            "Passed Example Tests": 5
+        },
+        "694": {
+            "Wrong Answer": 5
+        },
+        "695": {
+            "Passed Example Tests": 5
+        },
+        "696": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "697": {
+            "Passed Example Tests": 5
+        },
+        "698": {
+            "Passed Example Tests": 5
+        },
+        "699": {
+            "Wrong Answer": 5
+        },
+        "700": {
+            "Passed Example Tests": 5
+        },
+        "701": {
+            "Passed Example Tests": 5
+        },
+        "702": {
+            "Passed Example Tests": 5
+        },
+        "703": {
+            "Passed Example Tests": 5
+        },
+        "704": {
+            "Wrong Answer": 5
+        },
+        "705": {
+            "Passed Example Tests": 5
+        },
+        "706": {
+            "Passed Example Tests": 5
+        },
+        "707": {
+            "Wrong Answer": 5
+        },
+        "708": {
+            "Passed Example Tests": 5
+        },
+        "709": {
+            "Passed Example Tests": 5
+        },
+        "710": {
+            "Wrong Answer": 5
+        },
+        "711": {
+            "Passed Example Tests": 5
+        },
+        "712": {
+            "Passed Example Tests": 5
+        },
+        "713": {
+            "Passed Example Tests": 5
+        },
+        "714": {
+            "Passed Example Tests": 5
+        },
+        "715": {
+            "Wrong Answer": 5
+        },
+        "716": {
+            "Passed Example Tests": 5
+        },
+        "717": {
+            "Wrong Answer": 5
+        },
+        "718": {
+            "Passed Example Tests": 5
+        },
+        "719": {
+            "Passed Example Tests": 5
+        },
+        "720": {
+            "Wrong Answer": 5
+        },
+        "721": {
+            "Wrong Answer": 5
+        },
+        "722": {
+            "Passed Example Tests": 5
+        },
+        "723": {
+            "Passed Example Tests": 5
+        },
+        "724": {
+            "Passed Example Tests": 5
+        },
+        "725": {
+            "Wrong Answer": 5
+        },
+        "726": {
+            "Passed Example Tests": 5
+        },
+        "727": {
+            "Wrong Answer": 5
+        },
+        "728": {
+            "Passed Example Tests": 5
+        },
+        "729": {
+            "Passed Example Tests": 5
+        },
+        "730": {
+            "Passed Example Tests": 5
+        },
+        "731": {
+            "Passed Example Tests": 5
+        },
+        "732": {
+            "Passed Example Tests": 5
+        },
+        "733": {
+            "Passed Example Tests": 5
+        },
+        "734": {
+            "Passed Example Tests": 5
+        },
+        "735": {
+            "Passed Example Tests": 5
+        },
+        "736": {
+            "Passed Example Tests": 5
+        },
+        "737": {
+            "Wrong Answer": 5
+        },
+        "738": {
+            "Passed Example Tests": 5
+        },
+        "739": {
+            "Passed Example Tests": 5
+        },
+        "740": {
+            "Passed Example Tests": 5
+        },
+        "741": {
+            "Wrong Answer": 5
+        },
+        "742": {
+            "Wrong Answer": 5
+        },
+        "743": {
+            "Passed Example Tests": 5
+        },
+        "744": {
+            "Passed Example Tests": 5
+        },
+        "745": {
+            "Passed Example Tests": 5
+        },
+        "746": {
+            "Wrong Answer": 5
+        },
+        "747": {
+            "Wrong Answer": 5
+        },
+        "748": {
+            "Passed Example Tests": 5
+        },
+        "749": {
+            "Passed Example Tests": 5
+        },
+        "750": {
+            "Wrong Answer": 5
+        },
+        "751": {
+            "Passed Example Tests": 5
+        },
+        "752": {
+            "Passed Example Tests": 5
+        },
+        "753": {
+            "Wrong Answer": 3,
+            "Runtime Error": 2
+        },
+        "754": {
+            "Passed Example Tests": 5
+        },
+        "755": {
+            "Passed Example Tests": 5
+        },
+        "756": {
+            "Wrong Answer": 5
+        },
+        "757": {
+            "Wrong Answer": 5
+        },
+        "758": {
+            "Passed Example Tests": 5
+        },
+        "759": {
+            "Passed Example Tests": 5
+        },
+        "760": {
+            "Passed Example Tests": 5
+        },
+        "761": {
+            "Wrong Answer": 5
+        },
+        "762": {
+            "Passed Example Tests": 5
+        },
+        "763": {
+            "Passed Example Tests": 5
+        },
+        "764": {
+            "Passed Example Tests": 5
+        },
+        "765": {
+            "Passed Example Tests": 5
+        },
+        "766": {
+            "Wrong Answer": 5
+        },
+        "767": {
+            "Passed Example Tests": 5
+        },
+        "768": {
+            "Passed Example Tests": 5
+        },
+        "769": {
+            "Passed Example Tests": 5
+        },
+        "770": {
+            "Wrong Answer": 5
+        },
+        "771": {
+            "Passed Example Tests": 5
+        },
+        "772": {
+            "Passed Example Tests": 5
+        },
+        "773": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "774": {
+            "Passed Example Tests": 5
+        },
+        "775": {
+            "Passed Example Tests": 5
+        },
+        "776": {
+            "Passed Example Tests": 5
+        },
+        "777": {
+            "Passed Example Tests": 5
+        },
+        "778": {
+            "Passed Example Tests": 5
+        },
+        "779": {
+            "Wrong Answer": 5
+        },
+        "780": {
+            "Passed Example Tests": 5
+        },
+        "781": {
+            "Passed Example Tests": 5
+        },
+        "782": {
+            "Wrong Answer": 5
+        },
+        "783": {
+            "Passed Example Tests": 5
+        },
+        "784": {
+            "Passed Example Tests": 5
+        },
+        "785": {
+            "Wrong Answer": 5
+        },
+        "786": {
+            "Wrong Answer": 5
+        },
+        "787": {
+            "Wrong Answer": 5
+        },
+        "788": {
+            "Wrong Answer": 5
+        },
+        "789": {
+            "Passed Example Tests": 5
+        },
+        "790": {
+            "Wrong Answer": 5
+        },
+        "791": {
+            "Passed Example Tests": 5
+        },
+        "792": {
+            "Passed Example Tests": 5
+        },
+        "793": {
+            "Passed Example Tests": 5
+        },
+        "794": {
+            "Wrong Answer": 5
+        },
+        "795": {
+            "Wrong Answer": 5
+        },
+        "796": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "797": {
+            "Passed Example Tests": 5
+        },
+        "798": {
+            "Wrong Answer": 5
+        },
+        "799": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "800": {
+            "Passed Example Tests": 5
+        },
+        "801": {
+            "Passed Example Tests": 5
+        },
+        "802": {
+            "Passed Example Tests": 5
+        },
+        "803": {
+            "Wrong Answer": 5
+        },
+        "804": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "805": {
+            "Passed Example Tests": 5
+        },
+        "806": {
+            "Wrong Answer": 5
+        },
+        "807": {
+            "Passed Example Tests": 5
+        },
+        "808": {
+            "Passed Example Tests": 5
+        },
+        "809": {
+            "Passed Example Tests": 5
+        },
+        "810": {
+            "Wrong Answer": 5
+        },
+        "811": {
+            "Passed Example Tests": 5
+        },
+        "812": {
+            "Passed Example Tests": 5
+        },
+        "813": {
+            "Passed Example Tests": 5
+        },
+        "814": {
+            "Passed Example Tests": 5
+        },
+        "815": {
+            "Passed Example Tests": 5
+        },
+        "816": {
+            "Wrong Answer": 5
+        },
+        "817": {
+            "Wrong Answer": 5
+        },
+        "818": {
+            "Passed Example Tests": 5
+        },
+        "819": {
+            "Wrong Answer": 5
+        },
+        "820": {
+            "Passed Example Tests": 5
+        },
+        "821": {
+            "Passed Example Tests": 5
+        },
+        "822": {
+            "Wrong Answer": 5
+        },
+        "823": {
+            "Wrong Answer": 5
+        },
+        "824": {
+            "Passed Example Tests": 5
+        },
+        "825": {
+            "Wrong Answer": 5
+        },
+        "826": {
+            "Passed Example Tests": 3,
+            "Wrong Answer": 2
+        },
+        "827": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "828": {
+            "Passed Example Tests": 5
+        },
+        "829": {
+            "Passed Example Tests": 5
+        },
+        "830": {
+            "Wrong Answer": 5
+        },
+        "831": {
+            "Passed Example Tests": 5
+        },
+        "832": {
+            "Passed Example Tests": 5
+        },
+        "833": {
+            "Wrong Answer": 5
+        },
+        "834": {
+            "Passed Example Tests": 5
+        },
+        "835": {
+            "Passed Example Tests": 5
+        },
+        "836": {
+            "Passed Example Tests": 5
+        },
+        "837": {
+            "Passed Example Tests": 5
+        },
+        "838": {
+            "Wrong Answer": 5
+        },
+        "839": {
+            "Passed Example Tests": 5
+        },
+        "840": {
+            "Passed Example Tests": 5
+        },
+        "841": {
+            "Passed Example Tests": 5
+        },
+        "842": {
+            "Passed Example Tests": 5
+        },
+        "843": {
+            "Passed Example Tests": 5
+        },
+        "844": {
+            "Wrong Answer": 2,
+            "Passed Example Tests": 3
+        },
+        "845": {
+            "Wrong Answer": 5
+        },
+        "846": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "847": {
+            "Passed Example Tests": 5
+        },
+        "848": {
+            "Wrong Answer": 5
+        },
+        "849": {
+            "Wrong Answer": 5
+        },
+        "850": {
+            "Wrong Answer": 5
+        },
+        "851": {
+            "Passed Example Tests": 5
+        },
+        "852": {
+            "Passed Example Tests": 5
+        },
+        "853": {
+            "Passed Example Tests": 5
+        },
+        "854": {
+            "Passed Example Tests": 5
+        },
+        "855": {
+            "Passed Example Tests": 5
+        },
+        "856": {
+            "Passed Example Tests": 5
+        },
+        "857": {
+            "Passed Example Tests": 5
+        },
+        "858": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "859": {
+            "Passed Example Tests": 5
+        },
+        "860": {
+            "Passed Example Tests": 5
+        },
+        "861": {
+            "Passed Example Tests": 5
+        },
+        "862": {
+            "Wrong Answer": 5
+        },
+        "863": {
+            "Passed Example Tests": 5
+        },
+        "864": {
+            "Passed Example Tests": 5
+        },
+        "865": {
+            "Runtime Error": 3,
+            "Wrong Answer": 2
+        },
+        "866": {
+            "Wrong Answer": 5
+        },
+        "867": {
+            "Passed Example Tests": 5
+        },
+        "868": {
+            "Passed Example Tests": 5
+        },
+        "869": {
+            "Passed Example Tests": 5
+        },
+        "870": {
+            "Passed Example Tests": 5
+        },
+        "871": {
+            "Passed Example Tests": 5
+        },
+        "872": {
+            "Passed Example Tests": 5
+        },
+        "873": {
+            "Wrong Answer": 5
+        },
+        "874": {
+            "Wrong Answer": 5
+        },
+        "875": {
+            "Passed Example Tests": 5
+        },
+        "876": {
+            "Runtime Error": 5
+        },
+        "877": {
+            "Passed Example Tests": 5
+        },
+        "878": {
+            "Passed Example Tests": 5
+        },
+        "879": {
+            "Wrong Answer": 5
+        },
+        "880": {
+            "Passed Example Tests": 5
+        },
+        "881": {
+            "Passed Example Tests": 5
+        },
+        "882": {
+            "Wrong Answer": 5
+        },
+        "883": {
+            "Wrong Answer": 5
+        },
+        "884": {
+            "Passed Example Tests": 5
+        },
+        "885": {
+            "Passed Example Tests": 5
+        },
+        "886": {
+            "Passed Example Tests": 5
+        },
+        "887": {
+            "Passed Example Tests": 5
+        },
+        "888": {
+            "Passed Example Tests": 5
+        },
+        "889": {
+            "Passed Example Tests": 5
+        },
+        "890": {
+            "Passed Example Tests": 5
+        },
+        "891": {
+            "Passed Example Tests": 5
+        },
+        "892": {
+            "Passed Example Tests": 5
+        },
+        "893": {
+            "Wrong Answer": 1,
+            "Passed Example Tests": 4
+        },
+        "894": {
+            "Passed Example Tests": 5
+        },
+        "895": {
+            "Wrong Answer": 5
+        },
+        "896": {
+            "Passed Example Tests": 5
+        },
+        "897": {
+            "Passed Example Tests": 5
+        },
+        "898": {
+            "Passed Example Tests": 5
+        },
+        "899": {
+            "Wrong Answer": 5
+        },
+        "900": {
+            "Passed Example Tests": 5
+        },
+        "901": {
+            "Passed Example Tests": 5
+        },
+        "902": {
+            "Passed Example Tests": 5
+        },
+        "903": {
+            "Wrong Answer": 5
+        },
+        "904": {
+            "Passed Example Tests": 5
+        },
+        "905": {
+            "Passed Example Tests": 5
+        },
+        "906": {
+            "Wrong Answer": 5
+        },
+        "907": {
+            "Passed Example Tests": 5
+        },
+        "908": {
+            "Passed Example Tests": 5
+        },
+        "909": {
+            "Passed Example Tests": 5
+        },
+        "910": {
+            "Wrong Answer": 5
+        },
+        "911": {
+            "Passed Example Tests": 5
+        },
+        "912": {
+            "Wrong Answer": 5
+        },
+        "913": {
+            "Passed Example Tests": 5
+        },
+        "914": {
+            "Passed Example Tests": 5
+        },
+        "915": {
+            "Passed Example Tests": 5
+        },
+        "916": {
+            "Wrong Answer": 5
+        },
+        "917": {
+            "Passed Example Tests": 5
+        },
+        "918": {
+            "Wrong Answer": 5
+        },
+        "919": {
+            "Passed Example Tests": 5
+        },
+        "920": {
+            "Passed Example Tests": 5
+        },
+        "921": {
+            "Passed Example Tests": 5
+        },
+        "922": {
+            "Wrong Answer": 5
+        },
+        "923": {
+            "Passed Example Tests": 5
+        },
+        "924": {
+            "Wrong Answer": 5
+        },
+        "925": {
+            "Passed Example Tests": 5
+        },
+        "926": {
+            "Wrong Answer": 5
+        },
+        "927": {
+            "Passed Example Tests": 5
+        },
+        "928": {
+            "Passed Example Tests": 5
+        },
+        "929": {
+            "Wrong Answer": 5
+        },
+        "930": {
+            "Passed Example Tests": 5
+        },
+        "931": {
+            "Wrong Answer": 5
+        },
+        "932": {
+            "Passed Example Tests": 5
+        },
+        "933": {
+            "Wrong Answer": 5
+        },
+        "934": {
+            "Passed Example Tests": 5
+        },
+        "935": {
+            "Passed Example Tests": 5
+        },
+        "936": {
+            "Wrong Answer": 5
+        },
+        "937": {
+            "Passed Example Tests": 5
+        },
+        "938": {
+            "Wrong Answer": 5
+        },
+        "939": {
+            "Passed Example Tests": 3,
+            "Wrong Answer": 2
+        },
+        "940": {
+            "Passed Example Tests": 5
+        },
+        "941": {
+            "Passed Example Tests": 5
+        },
+        "942": {
+            "Wrong Answer": 5
+        },
+        "943": {
+            "Passed Example Tests": 5
+        },
+        "944": {
+            "Wrong Answer": 5
+        },
+        "945": {
+            "Passed Example Tests": 5
+        },
+        "946": {
+            "Passed Example Tests": 5
+        },
+        "947": {
+            "Passed Example Tests": 5
+        },
+        "948": {
+            "Wrong Answer": 5
+        },
+        "949": {
+            "Wrong Answer": 5
+        },
+        "950": {
+            "Wrong Answer": 5
+        },
+        "951": {
+            "Wrong Answer": 5
+        },
+        "952": {
+            "Passed Example Tests": 5
+        },
+        "953": {
+            "Wrong Answer": 5
+        },
+        "954": {
+            "Passed Example Tests": 5
+        },
+        "955": {
+            "Passed Example Tests": 3,
+            "Wrong Answer": 2
+        },
+        "956": {
+            "Wrong Answer": 5
+        },
+        "957": {
+            "Wrong Answer": 5
+        },
+        "958": {
+            "Passed Example Tests": 5
+        },
+        "959": {
+            "Wrong Answer": 5
+        },
+        "960": {
+            "Passed Example Tests": 5
+        },
+        "961": {
+            "Passed Example Tests": 5
+        },
+        "962": {
+            "Passed Example Tests": 5
+        },
+        "963": {
+            "Passed Example Tests": 5
+        },
+        "964": {
+            "Passed Example Tests": 5
+        },
+        "965": {
+            "Wrong Answer": 5
+        },
+        "966": {
+            "Passed Example Tests": 5
+        },
+        "967": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "968": {
+            "Passed Example Tests": 5
+        },
+        "969": {
+            "Wrong Answer": 5
+        },
+        "970": {
+            "Passed Example Tests": 5
+        },
+        "971": {
+            "Wrong Answer": 5
+        },
+        "972": {
+            "Passed Example Tests": 5
+        },
+        "973": {
+            "Passed Example Tests": 5
+        },
+        "974": {
+            "Passed Example Tests": 5
+        },
+        "975": {
+            "Wrong Answer": 5
+        },
+        "976": {
+            "Wrong Answer": 5
+        },
+        "977": {
+            "Passed Example Tests": 5
+        },
+        "978": {
+            "Wrong Answer": 5
+        },
+        "979": {
+            "Passed Example Tests": 5
+        },
+        "980": {
+            "Passed Example Tests": 5
+        },
+        "981": {
+            "Passed Example Tests": 5
+        },
+        "982": {
+            "Wrong Answer": 5
+        },
+        "983": {
+            "Wrong Answer": 5
+        },
+        "984": {
+            "Wrong Answer": 5
+        },
+        "985": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "986": {
+            "Passed Example Tests": 5
+        },
+        "987": {
+            "Passed Example Tests": 5
+        },
+        "988": {
+            "Passed Example Tests": 5
+        },
+        "989": {
+            "Wrong Answer": 5
+        },
+        "990": {
+            "Passed Example Tests": 5
+        },
+        "991": {
+            "Passed Example Tests": 5
+        },
+        "992": {
+            "Passed Example Tests": 5
+        },
+        "993": {
+            "Wrong Answer": 5
+        },
+        "994": {
+            "Passed Example Tests": 5
+        },
+        "995": {
+            "Passed Example Tests": 5
+        },
+        "996": {
+            "Passed Example Tests": 5
+        },
+        "997": {
+            "Passed Example Tests": 5
+        },
+        "998": {
+            "Passed Example Tests": 5
+        },
+        "999": {
+            "Passed Example Tests": 5
+        },
+        "1000": {
+            "Passed Example Tests": 5
+        },
+        "1001": {
+            "Passed Example Tests": 5
+        },
+        "1002": {
+            "Wrong Answer": 5
+        },
+        "1003": {
+            "Passed Example Tests": 5
+        },
+        "1004": {
+            "Passed Example Tests": 5
+        },
+        "1005": {
+            "Passed Example Tests": 5
+        },
+        "1006": {
+            "Wrong Answer": 5
+        },
+        "1007": {
+            "Passed Example Tests": 5
+        },
+        "1008": {
+            "Wrong Answer": 5
+        },
+        "1009": {
+            "Passed Example Tests": 5
+        },
+        "1010": {
+            "Wrong Answer": 5
+        },
+        "1011": {
+            "Passed Example Tests": 5
+        },
+        "1012": {
+            "Passed Example Tests": 5
+        },
+        "1013": {
+            "Passed Example Tests": 5
+        },
+        "1014": {
+            "Passed Example Tests": 5
+        },
+        "1015": {
+            "Wrong Answer": 5
+        },
+        "1016": {
+            "Wrong Answer": 5
+        },
+        "1017": {
+            "Wrong Answer": 5
+        },
+        "1018": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1019": {
+            "Passed Example Tests": 5
+        },
+        "1020": {
+            "Wrong Answer": 5
+        },
+        "1021": {
+            "Passed Example Tests": 5
+        },
+        "1022": {
+            "Passed Example Tests": 1,
+            "Wrong Answer": 4
+        },
+        "1023": {
+            "Passed Example Tests": 5
+        },
+        "1024": {
+            "Passed Example Tests": 5
+        },
+        "1025": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "1026": {
+            "Passed Example Tests": 5
+        },
+        "1027": {
+            "Wrong Answer": 5
+        },
+        "1028": {
+            "Wrong Answer": 5
+        },
+        "1029": {
+            "Passed Example Tests": 5
+        },
+        "1030": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1031": {
+            "Passed Example Tests": 5
+        },
+        "1032": {
+            "Passed Example Tests": 5
+        },
+        "1033": {
+            "Passed Example Tests": 5
+        },
+        "1034": {
+            "Passed Example Tests": 5
+        },
+        "1035": {
+            "Wrong Answer": 5
+        },
+        "1036": {
+            "Passed Example Tests": 5
+        },
+        "1037": {
+            "Wrong Answer": 5
+        },
+        "1038": {
+            "Wrong Answer": 5
+        },
+        "1039": {
+            "Wrong Answer": 5
+        },
+        "1040": {
+            "Passed Example Tests": 5
+        },
+        "1041": {
+            "Passed Example Tests": 5
+        },
+        "1042": {
+            "Wrong Answer": 5
+        },
+        "1043": {
+            "Passed Example Tests": 5
+        },
+        "1044": {
+            "Wrong Answer": 5
+        },
+        "1045": {
+            "Wrong Answer": 1,
+            "Passed Example Tests": 4
+        },
+        "1046": {
+            "Wrong Answer": 5
+        },
+        "1047": {
+            "Wrong Answer": 5
+        },
+        "1048": {
+            "Passed Example Tests": 5
+        },
+        "1049": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "1050": {
+            "Passed Example Tests": 5
+        },
+        "1051": {
+            "Passed Example Tests": 5
+        },
+        "1052": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1053": {
+            "Wrong Answer": 5
+        },
+        "1054": {
+            "Passed Example Tests": 5
+        },
+        "1055": {
+            "Passed Example Tests": 5
+        },
+        "1056": {
+            "Passed Example Tests": 5
+        },
+        "1057": {
+            "Passed Example Tests": 5
+        },
+        "1058": {
+            "Wrong Answer": 5
+        },
+        "1059": {
+            "Wrong Answer": 5
+        },
+        "1060": {
+            "Passed Example Tests": 5
+        },
+        "1061": {
+            "Wrong Answer": 5
+        },
+        "1062": {
+            "Passed Example Tests": 5
+        },
+        "1063": {
+            "Passed Example Tests": 5
+        },
+        "1064": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1065": {
+            "Wrong Answer": 5
+        },
+        "1066": {
+            "Passed Example Tests": 5
+        },
+        "1067": {
+            "Passed Example Tests": 5
+        },
+        "1068": {
+            "Passed Example Tests": 5
+        },
+        "1069": {
+            "Passed Example Tests": 5
+        },
+        "1070": {
+            "Passed Example Tests": 5
+        },
+        "1071": {
+            "Passed Example Tests": 5
+        },
+        "1072": {
+            "Wrong Answer": 5
+        },
+        "1073": {
+            "Passed Example Tests": 5
+        },
+        "1074": {
+            "Passed Example Tests": 5
+        },
+        "1075": {
+            "Passed Example Tests": 5
+        },
+        "1076": {
+            "Passed Example Tests": 5
+        },
+        "1077": {
+            "Passed Example Tests": 5
+        },
+        "1078": {
+            "Passed Example Tests": 5
+        },
+        "1079": {
+            "Passed Example Tests": 5
+        },
+        "1080": {
+            "Passed Example Tests": 5
+        },
+        "1081": {
+            "Passed Example Tests": 5
+        },
+        "1082": {
+            "Wrong Answer": 5
+        },
+        "1083": {
+            "Wrong Answer": 1,
+            "Passed Example Tests": 4
+        },
+        "1084": {
+            "Passed Example Tests": 5
+        },
+        "1085": {
+            "Wrong Answer": 5
+        },
+        "1086": {
+            "Passed Example Tests": 5
+        },
+        "1087": {
+            "Passed Example Tests": 5
+        },
+        "1088": {
+            "Passed Example Tests": 5
+        },
+        "1089": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "1090": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1091": {
+            "Wrong Answer": 5
+        },
+        "1092": {
+            "Wrong Answer": 5
+        },
+        "1093": {
+            "Passed Example Tests": 5
+        },
+        "1094": {
+            "Wrong Answer": 5
+        },
+        "1095": {
+            "Passed Example Tests": 5
+        },
+        "1096": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "1097": {
+            "Passed Example Tests": 5
+        },
+        "1098": {
+            "Wrong Answer": 5
+        },
+        "1099": {
+            "Passed Example Tests": 5
+        },
+        "1100": {
+            "Passed Example Tests": 5
+        },
+        "1101": {
+            "Wrong Answer": 5
+        },
+        "1102": {
+            "Passed Example Tests": 5
+        },
+        "1103": {
+            "Passed Example Tests": 5
+        },
+        "1104": {
+            "Passed Example Tests": 5
+        },
+        "1105": {
+            "Wrong Answer": 5
+        },
+        "1106": {
+            "Passed Example Tests": 5
+        },
+        "1107": {
+            "Wrong Answer": 2,
+            "Passed Example Tests": 3
+        },
+        "1108": {
+            "Passed Example Tests": 5
+        },
+        "1109": {
+            "Passed Example Tests": 5
+        },
+        "1110": {
+            "Passed Example Tests": 5
+        },
+        "1111": {
+            "Passed Example Tests": 5
+        },
+        "1112": {
+            "Passed Example Tests": 5
+        },
+        "1113": {
+            "Wrong Answer": 5
+        },
+        "1114": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1115": {
+            "Passed Example Tests": 5
+        },
+        "1116": {
+            "Passed Example Tests": 5
+        },
+        "1117": {
+            "Passed Example Tests": 5
+        },
+        "1118": {
+            "Passed Example Tests": 5
+        },
+        "1119": {
+            "Passed Example Tests": 5
+        },
+        "1120": {
+            "Passed Example Tests": 5
+        },
+        "1121": {
+            "Passed Example Tests": 5
+        },
+        "1122": {
+            "Wrong Answer": 5
+        },
+        "1123": {
+            "Wrong Answer": 5
+        },
+        "1124": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1125": {
+            "Passed Example Tests": 5
+        },
+        "1126": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1127": {
+            "Wrong Answer": 5
+        },
+        "1128": {
+            "Wrong Answer": 5
+        },
+        "1129": {
+            "Passed Example Tests": 5
+        },
+        "1130": {
+            "Wrong Answer": 5
+        },
+        "1131": {
+            "Passed Example Tests": 5
+        },
+        "1132": {
+            "Passed Example Tests": 5
+        },
+        "1133": {
+            "Passed Example Tests": 5
+        },
+        "1134": {
+            "Passed Example Tests": 5
+        },
+        "1135": {
+            "Passed Example Tests": 5
+        },
+        "1136": {
+            "Wrong Answer": 1,
+            "Passed Example Tests": 4
+        },
+        "1137": {
+            "Wrong Answer": 5
+        },
+        "1138": {
+            "Passed Example Tests": 5
+        },
+        "1139": {
+            "Passed Example Tests": 5
+        },
+        "1140": {
+            "Passed Example Tests": 5
+        },
+        "1141": {
+            "Passed Example Tests": 5
+        },
+        "1142": {
+            "Passed Example Tests": 5
+        },
+        "1143": {
+            "Passed Example Tests": 5
+        },
+        "1144": {
+            "Wrong Answer": 5
+        },
+        "1145": {
+            "Wrong Answer": 5
+        },
+        "1146": {
+            "Wrong Answer": 5
+        },
+        "1147": {
+            "Passed Example Tests": 5
+        },
+        "1148": {
+            "Passed Example Tests": 3,
+            "Wrong Answer": 2
+        },
+        "1149": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1150": {
+            "Passed Example Tests": 5
+        },
+        "1151": {
+            "Passed Example Tests": 5
+        },
+        "1152": {
+            "Wrong Answer": 5
+        },
+        "1153": {
+            "Passed Example Tests": 5
+        },
+        "1154": {
+            "Passed Example Tests": 5
+        },
+        "1155": {
+            "Passed Example Tests": 5
+        },
+        "1156": {
+            "Passed Example Tests": 5
+        },
+        "1157": {
+            "Passed Example Tests": 5
+        },
+        "1158": {
+            "Passed Example Tests": 5
+        },
+        "1159": {
+            "Passed Example Tests": 5
+        },
+        "1160": {
+            "Passed Example Tests": 5
+        },
+        "1161": {
+            "Wrong Answer": 5
+        },
+        "1162": {
+            "Passed Example Tests": 5
+        },
+        "1163": {
+            "Passed Example Tests": 5
+        },
+        "1164": {
+            "Passed Example Tests": 1,
+            "Wrong Answer": 4
+        },
+        "1165": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "1166": {
+            "Wrong Answer": 5
+        },
+        "1167": {
+            "Passed Example Tests": 5
+        },
+        "1168": {
+            "Wrong Answer": 5
+        },
+        "1169": {
+            "Passed Example Tests": 5
+        },
+        "1170": {
+            "Passed Example Tests": 5
+        },
+        "1171": {
+            "Passed Example Tests": 5
+        },
+        "1172": {
+            "Wrong Answer": 5
+        },
+        "1173": {
+            "Passed Example Tests": 5
+        },
+        "1174": {
+            "Passed Example Tests": 5
+        },
+        "1175": {
+            "Passed Example Tests": 5
+        },
+        "1176": {
+            "Passed Example Tests": 5
+        },
+        "1177": {
+            "Passed Example Tests": 5
+        },
+        "1178": {
+            "Passed Example Tests": 5
+        },
+        "1179": {
+            "Passed Example Tests": 5
+        },
+        "1180": {
+            "Passed Example Tests": 5
+        },
+        "1181": {
+            "Wrong Answer": 5
+        },
+        "1182": {
+            "Passed Example Tests": 5
+        },
+        "1183": {
+            "Wrong Answer": 5
+        },
+        "1184": {
+            "Passed Example Tests": 5
+        },
+        "1185": {
+            "Passed Example Tests": 5
+        },
+        "1186": {
+            "Wrong Answer": 2,
+            "Passed Example Tests": 3
+        },
+        "1187": {
+            "Passed Example Tests": 5
+        },
+        "1188": {
+            "Wrong Answer": 5
+        },
+        "1189": {
+            "Wrong Answer": 5
+        },
+        "1190": {
+            "Passed Example Tests": 5
+        },
+        "1191": {
+            "Passed Example Tests": 5
+        },
+        "1192": {
+            "Passed Example Tests": 5
+        },
+        "1193": {
+            "Passed Example Tests": 5
+        },
+        "1194": {
+            "Passed Example Tests": 5
+        },
+        "1195": {
+            "Passed Example Tests": 5
+        },
+        "1196": {
+            "Passed Example Tests": 5
+        },
+        "1197": {
+            "Passed Example Tests": 5
+        },
+        "1198": {
+            "Passed Example Tests": 5
+        },
+        "1199": {
+            "Passed Example Tests": 5
+        },
+        "1200": {
+            "Passed Example Tests": 5
+        },
+        "1201": {
+            "Wrong Answer": 5
+        },
+        "1202": {
+            "Passed Example Tests": 5
+        },
+        "1203": {
+            "Wrong Answer": 5
+        },
+        "1204": {
+            "Passed Example Tests": 5
+        },
+        "1205": {
+            "Passed Example Tests": 5
+        },
+        "1206": {
+            "Wrong Answer": 5
+        },
+        "1207": {
+            "Passed Example Tests": 5
+        },
+        "1208": {
+            "Passed Example Tests": 5
+        },
+        "1209": {
+            "Passed Example Tests": 5
+        },
+        "1210": {
+            "Passed Example Tests": 5
+        },
+        "1211": {
+            "Passed Example Tests": 5
+        },
+        "1212": {
+            "Wrong Answer": 5
+        },
+        "1213": {
+            "Passed Example Tests": 5
+        },
+        "1214": {
+            "Wrong Answer": 5
+        },
+        "1215": {
+            "Passed Example Tests": 5
+        },
+        "1216": {
+            "Wrong Answer": 5
+        },
+        "1217": {
+            "Passed Example Tests": 5
+        },
+        "1218": {
+            "Passed Example Tests": 5
+        },
+        "1219": {
+            "Passed Example Tests": 5
+        },
+        "1220": {
+            "Wrong Answer": 5
+        },
+        "1221": {
+            "Passed Example Tests": 5
+        },
+        "1222": {
+            "Passed Example Tests": 5
+        },
+        "1223": {
+            "Passed Example Tests": 5
+        },
+        "1224": {
+            "Wrong Answer": 5
+        },
+        "1225": {
+            "Wrong Answer": 5
+        },
+        "1226": {
+            "Passed Example Tests": 5
+        },
+        "1227": {
+            "Wrong Answer": 5
+        },
+        "1228": {
+            "Passed Example Tests": 5
+        },
+        "1229": {
+            "Passed Example Tests": 5
+        },
+        "1230": {
+            "Passed Example Tests": 5
+        },
+        "1231": {
+            "Passed Example Tests": 5
+        },
+        "1232": {
+            "Passed Example Tests": 5
+        },
+        "1233": {
+            "Passed Example Tests": 5
+        },
+        "1234": {
+            "Wrong Answer": 5
+        },
+        "1235": {
+            "Wrong Answer": 5
+        },
+        "1236": {
+            "Passed Example Tests": 5
+        },
+        "1237": {
+            "Passed Example Tests": 5
+        },
+        "1238": {
+            "Passed Example Tests": 5
+        },
+        "1239": {
+            "Wrong Answer": 5
+        },
+        "1240": {
+            "Passed Example Tests": 5
+        },
+        "1241": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "1242": {
+            "Passed Example Tests": 5
+        },
+        "1243": {
+            "Wrong Answer": 5
+        },
+        "1244": {
+            "Passed Example Tests": 5
+        },
+        "1245": {
+            "Passed Example Tests": 5
+        },
+        "1246": {
+            "Wrong Answer": 5
+        },
+        "1247": {
+            "Passed Example Tests": 5
+        },
+        "1248": {
+            "Passed Example Tests": 5
+        },
+        "1249": {
+            "Passed Example Tests": 5
+        },
+        "1250": {
+            "Passed Example Tests": 5
+        },
+        "1251": {
+            "Wrong Answer": 5
+        },
+        "1252": {
+            "Wrong Answer": 5
+        },
+        "1253": {
+            "Passed Example Tests": 5
+        },
+        "1254": {
+            "Passed Example Tests": 5
+        },
+        "1255": {
+            "Wrong Answer": 5
+        },
+        "1256": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "1257": {
+            "Wrong Answer": 4,
+            "Runtime Error": 1
+        },
+        "1258": {
+            "Wrong Answer": 5
+        },
+        "1259": {
+            "Passed Example Tests": 3,
+            "Wrong Answer": 2
+        },
+        "1260": {
+            "Passed Example Tests": 5
+        },
+        "1261": {
+            "Passed Example Tests": 5
+        },
+        "1262": {
+            "Passed Example Tests": 5
+        },
+        "1263": {
+            "Passed Example Tests": 5
+        },
+        "1264": {
+            "Wrong Answer": 3,
+            "Compilation Error": 1,
+            "Runtime Error": 1
+        },
+        "1265": {
+            "Wrong Answer": 5
+        },
+        "1266": {
+            "Wrong Answer": 4,
+            "Runtime Error": 1
+        },
+        "1267": {
+            "Passed Example Tests": 5
+        },
+        "1268": {
+            "Wrong Answer": 5
+        },
+        "1269": {
+            "Passed Example Tests": 5
+        },
+        "1270": {
+            "Passed Example Tests": 5
+        },
+        "1271": {
+            "Passed Example Tests": 5
+        },
+        "1272": {
+            "Wrong Answer": 5
+        },
+        "1273": {
+            "Passed Example Tests": 5
+        },
+        "1274": {
+            "Wrong Answer": 5
+        },
+        "1275": {
+            "Passed Example Tests": 5
+        },
+        "1276": {
+            "Wrong Answer": 5
+        },
+        "1277": {
+            "Wrong Answer": 5
+        },
+        "1278": {
+            "Wrong Answer": 5
+        },
+        "1279": {
+            "Passed Example Tests": 5
+        },
+        "1280": {
+            "Passed Example Tests": 5
+        },
+        "1281": {
+            "Passed Example Tests": 5
+        },
+        "1282": {
+            "Passed Example Tests": 5
+        },
+        "1283": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1284": {
+            "Wrong Answer": 5
+        },
+        "1285": {
+            "Passed Example Tests": 5
+        },
+        "1286": {
+            "Passed Example Tests": 5
+        },
+        "1287": {
+            "Wrong Answer": 5
+        },
+        "1288": {
+            "Passed Example Tests": 5
+        },
+        "1289": {
+            "Wrong Answer": 5
+        },
+        "1290": {
+            "Passed Example Tests": 5
+        },
+        "1291": {
+            "Passed Example Tests": 5
+        },
+        "1292": {
+            "Passed Example Tests": 5
+        },
+        "1293": {
+            "Passed Example Tests": 5
+        },
+        "1294": {
+            "Wrong Answer": 5
+        },
+        "1295": {
+            "Passed Example Tests": 5
+        },
+        "1296": {
+            "Wrong Answer": 5
+        },
+        "1297": {
+            "Passed Example Tests": 5
+        },
+        "1298": {
+            "Passed Example Tests": 5
+        },
+        "1299": {
+            "Passed Example Tests": 5
+        },
+        "1300": {
+            "Passed Example Tests": 5
+        },
+        "1301": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1302": {
+            "Passed Example Tests": 5
+        },
+        "1303": {
+            "Passed Example Tests": 5
+        },
+        "1304": {
+            "Passed Example Tests": 5
+        },
+        "1305": {
+            "Passed Example Tests": 5
+        },
+        "1306": {
+            "Passed Example Tests": 5
+        },
+        "1307": {
+            "Passed Example Tests": 5
+        },
+        "1308": {
+            "Passed Example Tests": 1,
+            "Wrong Answer": 4
+        },
+        "1309": {
+            "Passed Example Tests": 5
+        },
+        "1310": {
+            "Wrong Answer": 5
+        },
+        "1311": {
+            "Wrong Answer": 5
+        },
+        "1312": {
+            "Wrong Answer": 5
+        },
+        "1313": {
+            "Passed Example Tests": 5
+        },
+        "1314": {
+            "Passed Example Tests": 5
+        },
+        "1315": {
+            "Passed Example Tests": 5
+        },
+        "1316": {
+            "Passed Example Tests": 5
+        },
+        "1317": {
+            "Wrong Answer": 5
+        },
+        "1318": {
+            "Passed Example Tests": 5
+        },
+        "1319": {
+            "Passed Example Tests": 5
+        },
+        "1320": {
+            "Wrong Answer": 5
+        },
+        "1321": {
+            "Passed Example Tests": 5
+        },
+        "1322": {
+            "Passed Example Tests": 5
+        },
+        "1323": {
+            "Passed Example Tests": 1,
+            "Wrong Answer": 4
+        },
+        "1324": {
+            "Passed Example Tests": 5
+        },
+        "1325": {
+            "Passed Example Tests": 5
+        },
+        "1326": {
+            "Passed Example Tests": 5
+        },
+        "1327": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "1328": {
+            "Passed Example Tests": 5
+        },
+        "1329": {
+            "Wrong Answer": 5
+        },
+        "1330": {
+            "Passed Example Tests": 5
+        },
+        "1331": {
+            "Wrong Answer": 5
+        },
+        "1332": {
+            "Passed Example Tests": 5
+        },
+        "1333": {
+            "Wrong Answer": 5
+        },
+        "1334": {
+            "Passed Example Tests": 5
+        },
+        "1335": {
+            "Passed Example Tests": 5
+        },
+        "1336": {
+            "Passed Example Tests": 5
+        },
+        "1337": {
+            "Passed Example Tests": 5
+        },
+        "1338": {
+            "Passed Example Tests": 5
+        },
+        "1339": {
+            "Passed Example Tests": 5
+        },
+        "1340": {
+            "Passed Example Tests": 5
+        },
+        "1341": {
+            "Runtime Error": 5
+        },
+        "1342": {
+            "Passed Example Tests": 5
+        },
+        "1343": {
+            "Passed Example Tests": 5
+        },
+        "1344": {
+            "Wrong Answer": 5
+        },
+        "1345": {
+            "Passed Example Tests": 5
+        },
+        "1346": {
+            "Passed Example Tests": 5
+        },
+        "1347": {
+            "Passed Example Tests": 5
+        },
+        "1348": {
+            "Passed Example Tests": 5
+        },
+        "1349": {
+            "Wrong Answer": 5
+        },
+        "1350": {
+            "Wrong Answer": 5
+        },
+        "1351": {
+            "Wrong Answer": 5
+        },
+        "1352": {
+            "Passed Example Tests": 5
+        },
+        "1353": {
+            "Passed Example Tests": 5
+        },
+        "1354": {
+            "Passed Example Tests": 5
+        },
+        "1355": {
+            "Passed Example Tests": 5
+        },
+        "1356": {
+            "Passed Example Tests": 5
+        },
+        "1357": {
+            "Passed Example Tests": 5
+        },
+        "1358": {
+            "Passed Example Tests": 5
+        },
+        "1359": {
+            "Wrong Answer": 5
+        },
+        "1360": {
+            "Passed Example Tests": 5
+        },
+        "1361": {
+            "Passed Example Tests": 5
+        },
+        "1362": {
+            "Wrong Answer": 4,
+            "Runtime Error": 1
+        },
+        "1363": {
+            "Passed Example Tests": 5
+        },
+        "1364": {
+            "Wrong Answer": 5
+        },
+        "1365": {
+            "Passed Example Tests": 5
+        },
+        "1366": {
+            "Passed Example Tests": 5
+        },
+        "1367": {
+            "Wrong Answer": 5
+        },
+        "1368": {
+            "Wrong Answer": 5
+        },
+        "1369": {
+            "Passed Example Tests": 5
+        },
+        "1370": {
+            "Passed Example Tests": 5
+        },
+        "1371": {
+            "Passed Example Tests": 5
+        },
+        "1372": {
+            "Passed Example Tests": 5
+        },
+        "1373": {
+            "Wrong Answer": 5
+        },
+        "1374": {
+            "Wrong Answer": 5
+        },
+        "1375": {
+            "Wrong Answer": 5
+        },
+        "1376": {
+            "Passed Example Tests": 5
+        },
+        "1377": {
+            "Passed Example Tests": 5
+        },
+        "1378": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1379": {
+            "Passed Example Tests": 5
+        },
+        "1380": {
+            "Passed Example Tests": 5
+        },
+        "1381": {
+            "Wrong Answer": 5
+        },
+        "1382": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "1383": {
+            "Passed Example Tests": 5
+        },
+        "1384": {
+            "Passed Example Tests": 5
+        },
+        "1385": {
+            "Passed Example Tests": 5
+        },
+        "1386": {
+            "Wrong Answer": 5
+        },
+        "1387": {
+            "Passed Example Tests": 5
+        },
+        "1388": {
+            "Passed Example Tests": 5
+        },
+        "1389": {
+            "Passed Example Tests": 5
+        },
+        "1390": {
+            "Passed Example Tests": 5
+        },
+        "1391": {
+            "Passed Example Tests": 5
+        },
+        "1392": {
+            "Passed Example Tests": 5
+        },
+        "1393": {
+            "Passed Example Tests": 5
+        },
+        "1394": {
+            "Passed Example Tests": 5
+        },
+        "1395": {
+            "Wrong Answer": 5
+        },
+        "1396": {
+            "Passed Example Tests": 5
+        },
+        "1397": {
+            "Passed Example Tests": 5
+        },
+        "1398": {
+            "Passed Example Tests": 3,
+            "Wrong Answer": 2
+        },
+        "1399": {
+            "Runtime Error": 1,
+            "Wrong Answer": 4
+        },
+        "1400": {
+            "Passed Example Tests": 5
+        },
+        "1401": {
+            "Wrong Answer": 5
+        },
+        "1402": {
+            "Passed Example Tests": 5
+        },
+        "1403": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "1404": {
+            "Passed Example Tests": 5
+        },
+        "1405": {
+            "Wrong Answer": 5
+        },
+        "1406": {
+            "Passed Example Tests": 5
+        },
+        "1407": {
+            "Passed Example Tests": 5
+        },
+        "1408": {
+            "Passed Example Tests": 5
+        },
+        "1409": {
+            "Passed Example Tests": 5
+        },
+        "1410": {
+            "Wrong Answer": 5
+        },
+        "1411": {
+            "Passed Example Tests": 5
+        },
+        "1412": {
+            "Passed Example Tests": 5
+        },
+        "1413": {
+            "Passed Example Tests": 5
+        },
+        "1414": {
+            "Passed Example Tests": 5
+        },
+        "1415": {
+            "Passed Example Tests": 5
+        },
+        "1416": {
+            "Passed Example Tests": 5
+        },
+        "1417": {
+            "Passed Example Tests": 5
+        },
+        "1418": {
+            "Passed Example Tests": 5
+        },
+        "1419": {
+            "Passed Example Tests": 5
+        },
+        "1420": {
+            "Passed Example Tests": 5
+        },
+        "1421": {
+            "Wrong Answer": 5
+        },
+        "1422": {
+            "Passed Example Tests": 5
+        },
+        "1423": {
+            "Wrong Answer": 5
+        },
+        "1424": {
+            "Passed Example Tests": 5
+        },
+        "1425": {
+            "Passed Example Tests": 5
+        },
+        "1426": {
+            "Wrong Answer": 5
+        },
+        "1427": {
+            "Passed Example Tests": 5
+        },
+        "1428": {
+            "Passed Example Tests": 5
+        },
+        "1429": {
+            "Passed Example Tests": 5
+        },
+        "1430": {
+            "Wrong Answer": 5
+        },
+        "1431": {
+            "Passed Example Tests": 5
+        },
+        "1432": {
+            "Passed Example Tests": 5
+        },
+        "1433": {
+            "Passed Example Tests": 5
+        },
+        "1434": {
+            "Passed Example Tests": 5
+        },
+        "1435": {
+            "Wrong Answer": 5
+        },
+        "1436": {
+            "Passed Example Tests": 5
+        },
+        "1437": {
+            "Passed Example Tests": 5
+        },
+        "1438": {
+            "Passed Example Tests": 5
+        },
+        "1439": {
+            "Passed Example Tests": 5
+        },
+        "1440": {
+            "Passed Example Tests": 5
+        },
+        "1441": {
+            "Passed Example Tests": 5
+        },
+        "1442": {
+            "Passed Example Tests": 5
+        },
+        "1443": {
+            "Passed Example Tests": 5
+        },
+        "1444": {
+            "Passed Example Tests": 5
+        },
+        "1445": {
+            "Passed Example Tests": 5
+        },
+        "1446": {
+            "Passed Example Tests": 5
+        },
+        "1447": {
+            "Passed Example Tests": 5
+        },
+        "1448": {
+            "Passed Example Tests": 5
+        },
+        "1449": {
+            "Passed Example Tests": 5
+        },
+        "1450": {
+            "Passed Example Tests": 5
+        },
+        "1451": {
+            "Wrong Answer": 5
+        },
+        "1452": {
+            "Wrong Answer": 5
+        },
+        "1453": {
+            "Passed Example Tests": 5
+        },
+        "1454": {
+            "Passed Example Tests": 5
+        },
+        "1455": {
+            "Passed Example Tests": 5
+        },
+        "1456": {
+            "Wrong Answer": 5
+        },
+        "1457": {
+            "Passed Example Tests": 5
+        },
+        "1458": {
+            "Passed Example Tests": 5
+        },
+        "1459": {
+            "Wrong Answer": 5
+        },
+        "1460": {
+            "Wrong Answer": 5
+        },
+        "1461": {
+            "Passed Example Tests": 5
+        },
+        "1462": {
+            "Passed Example Tests": 5
+        },
+        "1463": {
+            "Passed Example Tests": 5
+        },
+        "1464": {
+            "Passed Example Tests": 5
+        },
+        "1465": {
+            "Passed Example Tests": 5
+        },
+        "1466": {
+            "Passed Example Tests": 5
+        },
+        "1467": {
+            "Passed Example Tests": 5
+        },
+        "1468": {
+            "Wrong Answer": 2,
+            "Passed Example Tests": 3
+        },
+        "1469": {
+            "Wrong Answer": 1,
+            "Passed Example Tests": 4
+        },
+        "1470": {
+            "Passed Example Tests": 5
+        },
+        "1471": {
+            "Wrong Answer": 5
+        },
+        "1472": {
+            "Wrong Answer": 5
+        },
+        "1473": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "1474": {
+            "Wrong Answer": 5
+        },
+        "1475": {
+            "Passed Example Tests": 5
+        },
+        "1476": {
+            "Passed Example Tests": 5
+        },
+        "1477": {
+            "Passed Example Tests": 5
+        },
+        "1478": {
+            "Passed Example Tests": 5
+        },
+        "1479": {
+            "Passed Example Tests": 5
+        },
+        "1480": {
+            "Wrong Answer": 5
+        },
+        "1481": {
+            "Wrong Answer": 5
+        },
+        "1482": {
+            "Passed Example Tests": 5
+        },
+        "1483": {
+            "Passed Example Tests": 5
+        },
+        "1484": {
+            "Passed Example Tests": 5
+        },
+        "1485": {
+            "Passed Example Tests": 5
+        },
+        "1486": {
+            "Passed Example Tests": 5
+        },
+        "1487": {
+            "Passed Example Tests": 5
+        },
+        "1488": {
+            "Passed Example Tests": 5
+        },
+        "1489": {
+            "Passed Example Tests": 5
+        },
+        "1490": {
+            "Passed Example Tests": 5
+        },
+        "1491": {
+            "Wrong Answer": 5
+        },
+        "1492": {
+            "Passed Example Tests": 5
+        },
+        "1493": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1494": {
+            "Passed Example Tests": 5
+        },
+        "1495": {
+            "Wrong Answer": 5
+        },
+        "1496": {
+            "Wrong Answer": 5
+        },
+        "1497": {
+            "Passed Example Tests": 5
+        },
+        "1498": {
+            "Wrong Answer": 5
+        },
+        "1499": {
+            "Passed Example Tests": 5
+        },
+        "1500": {
+            "Passed Example Tests": 5
+        },
+        "1501": {
+            "Passed Example Tests": 5
+        },
+        "1502": {
+            "Wrong Answer": 5
+        },
+        "1503": {
+            "Wrong Answer": 5
+        },
+        "1504": {
+            "Passed Example Tests": 5
+        },
+        "1505": {
+            "Wrong Answer": 5
+        },
+        "1506": {
+            "Passed Example Tests": 5
+        },
+        "1507": {
+            "Passed Example Tests": 5
+        },
+        "1508": {
+            "Passed Example Tests": 5
+        },
+        "1509": {
+            "Passed Example Tests": 5
+        },
+        "1510": {
+            "Wrong Answer": 5
+        },
+        "1511": {
+            "Passed Example Tests": 5
+        },
+        "1512": {
+            "Passed Example Tests": 5
+        },
+        "1513": {
+            "Passed Example Tests": 5
+        },
+        "1514": {
+            "Wrong Answer": 5
+        },
+        "1515": {
+            "Wrong Answer": 5
+        },
+        "1516": {
+            "Passed Example Tests": 5
+        },
+        "1517": {
+            "Passed Example Tests": 5
+        },
+        "1518": {
+            "Passed Example Tests": 5
+        },
+        "1519": {
+            "Wrong Answer": 5
+        },
+        "1520": {
+            "Passed Example Tests": 5
+        },
+        "1521": {
+            "Passed Example Tests": 5
+        },
+        "1522": {
+            "Wrong Answer": 5
+        },
+        "1523": {
+            "Wrong Answer": 5
+        },
+        "1524": {
+            "Wrong Answer": 5
+        },
+        "1525": {
+            "Passed Example Tests": 5
+        },
+        "1526": {
+            "Passed Example Tests": 5
+        },
+        "1527": {
+            "Passed Example Tests": 5
+        },
+        "1528": {
+            "Passed Example Tests": 5
+        },
+        "1529": {
+            "Passed Example Tests": 5
+        },
+        "1530": {
+            "Passed Example Tests": 5
+        },
+        "1531": {
+            "Passed Example Tests": 5
+        },
+        "1532": {
+            "Passed Example Tests": 5
+        },
+        "1533": {
+            "Wrong Answer": 5
+        },
+        "1534": {
+            "Passed Example Tests": 5
+        },
+        "1535": {
+            "Passed Example Tests": 5
+        },
+        "1536": {
+            "Passed Example Tests": 5
+        },
+        "1537": {
+            "Wrong Answer": 5
+        },
+        "1538": {
+            "Wrong Answer": 5
+        },
+        "1539": {
+            "Wrong Answer": 5
+        },
+        "1540": {
+            "Passed Example Tests": 5
+        },
+        "1541": {
+            "Passed Example Tests": 5
+        },
+        "1542": {
+            "Passed Example Tests": 5
+        },
+        "1543": {
+            "Wrong Answer": 5
+        },
+        "1544": {
+            "Wrong Answer": 5
+        },
+        "1545": {
+            "Passed Example Tests": 5
+        },
+        "1546": {
+            "Passed Example Tests": 5
+        },
+        "1547": {
+            "Passed Example Tests": 5
+        },
+        "1548": {
+            "Passed Example Tests": 5
+        },
+        "1549": {
+            "Passed Example Tests": 5
+        },
+        "1550": {
+            "Passed Example Tests": 5
+        },
+        "1551": {
+            "Passed Example Tests": 5
+        },
+        "1552": {
+            "Passed Example Tests": 5
+        },
+        "1553": {
+            "Passed Example Tests": 5
+        },
+        "1554": {
+            "Passed Example Tests": 5
+        },
+        "1555": {
+            "Passed Example Tests": 5
+        },
+        "1556": {
+            "Passed Example Tests": 5
+        },
+        "1557": {
+            "Passed Example Tests": 5
+        },
+        "1558": {
+            "Passed Example Tests": 5
+        },
+        "1559": {
+            "Passed Example Tests": 5
+        },
+        "1560": {
+            "Passed Example Tests": 5
+        },
+        "1561": {
+            "Wrong Answer": 5
+        },
+        "1562": {
+            "Wrong Answer": 5
+        },
+        "1563": {
+            "Passed Example Tests": 5
+        },
+        "1564": {
+            "Passed Example Tests": 5
+        },
+        "1565": {
+            "Passed Example Tests": 5
+        },
+        "1566": {
+            "Passed Example Tests": 5
+        },
+        "1567": {
+            "Passed Example Tests": 5
+        },
+        "1568": {
+            "Wrong Answer": 5
+        },
+        "1569": {
+            "Passed Example Tests": 5
+        },
+        "1570": {
+            "Passed Example Tests": 5
+        },
+        "1571": {
+            "Passed Example Tests": 5
+        },
+        "1572": {
+            "Wrong Answer": 5
+        },
+        "1573": {
+            "Passed Example Tests": 5
+        },
+        "1574": {
+            "Passed Example Tests": 5
+        },
+        "1575": {
+            "Passed Example Tests": 5
+        },
+        "1576": {
+            "Passed Example Tests": 5
+        },
+        "1577": {
+            "Wrong Answer": 5
+        },
+        "1578": {
+            "Wrong Answer": 5
+        },
+        "1579": {
+            "Wrong Answer": 5
+        },
+        "1580": {
+            "Passed Example Tests": 5
+        },
+        "1581": {
+            "Wrong Answer": 5
+        },
+        "1582": {
+            "Passed Example Tests": 5
+        },
+        "1583": {
+            "Wrong Answer": 5
+        },
+        "1584": {
+            "Wrong Answer": 5
+        },
+        "1585": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "1586": {
+            "Passed Example Tests": 5
+        },
+        "1587": {
+            "Wrong Answer": 5
+        },
+        "1588": {
+            "Wrong Answer": 5
+        },
+        "1589": {
+            "Passed Example Tests": 5
+        },
+        "1590": {
+            "Wrong Answer": 5
+        },
+        "1591": {
+            "Passed Example Tests": 5
+        },
+        "1592": {
+            "Passed Example Tests": 5
+        },
+        "1593": {
+            "Wrong Answer": 5
+        },
+        "1594": {
+            "Passed Example Tests": 5
+        },
+        "1595": {
+            "Wrong Answer": 5
+        },
+        "1596": {
+            "Passed Example Tests": 5
+        },
+        "1597": {
+            "Passed Example Tests": 5
+        },
+        "1598": {
+            "Wrong Answer": 5
+        },
+        "1599": {
+            "Wrong Answer": 5
+        },
+        "1600": {
+            "Passed Example Tests": 5
+        },
+        "1601": {
+            "Passed Example Tests": 5
+        },
+        "1602": {
+            "Passed Example Tests": 5
+        },
+        "1603": {
+            "Passed Example Tests": 5
+        },
+        "1604": {
+            "Passed Example Tests": 5
+        },
+        "1605": {
+            "Wrong Answer": 5
+        },
+        "1606": {
+            "Passed Example Tests": 5
+        },
+        "1607": {
+            "Passed Example Tests": 5
+        },
+        "1608": {
+            "Passed Example Tests": 5
+        },
+        "1609": {
+            "Passed Example Tests": 5
+        },
+        "1610": {
+            "Passed Example Tests": 5
+        },
+        "1611": {
+            "Passed Example Tests": 5
+        },
+        "1612": {
+            "Wrong Answer": 5
+        },
+        "1613": {
+            "Passed Example Tests": 5
+        },
+        "1614": {
+            "Wrong Answer": 5
+        },
+        "1615": {
+            "Passed Example Tests": 5
+        },
+        "1616": {
+            "Wrong Answer": 4,
+            "Runtime Error": 1
+        },
+        "1617": {
+            "Wrong Answer": 5
+        },
+        "1618": {
+            "Passed Example Tests": 5
+        },
+        "1619": {
+            "Passed Example Tests": 5
+        },
+        "1620": {
+            "Passed Example Tests": 5
+        },
+        "1621": {
+            "Passed Example Tests": 5
+        },
+        "1622": {
+            "Passed Example Tests": 5
+        },
+        "1623": {
+            "Wrong Answer": 3,
+            "Runtime Error": 2
+        },
+        "1624": {
+            "Wrong Answer": 5
+        },
+        "1625": {
+            "Passed Example Tests": 5
+        },
+        "1626": {
+            "Passed Example Tests": 5
+        },
+        "1627": {
+            "Passed Example Tests": 5
+        },
+        "1628": {
+            "Wrong Answer": 5
+        },
+        "1629": {
+            "Passed Example Tests": 5
+        },
+        "1630": {
+            "Passed Example Tests": 5
+        },
+        "1631": {
+            "Wrong Answer": 5
+        },
+        "1632": {
+            "Passed Example Tests": 5
+        },
+        "1633": {
+            "Passed Example Tests": 5
+        },
+        "1634": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1635": {
+            "Passed Example Tests": 5
+        },
+        "1636": {
+            "Passed Example Tests": 5
+        },
+        "1637": {
+            "Passed Example Tests": 5
+        },
+        "1638": {
+            "Passed Example Tests": 5
+        },
+        "1639": {
+            "Wrong Answer": 5
+        },
+        "1640": {
+            "Passed Example Tests": 5
+        },
+        "1641": {
+            "Passed Example Tests": 5
+        },
+        "1642": {
+            "Passed Example Tests": 5
+        },
+        "1643": {
+            "Wrong Answer": 5
+        },
+        "1644": {
+            "Passed Example Tests": 5
+        },
+        "1645": {
+            "Passed Example Tests": 5
+        },
+        "1646": {
+            "Wrong Answer": 5
+        },
+        "1647": {
+            "Wrong Answer": 5
+        },
+        "1648": {
+            "Passed Example Tests": 5
+        },
+        "1649": {
+            "Wrong Answer": 5
+        },
+        "1650": {
+            "Passed Example Tests": 5
+        },
+        "1651": {
+            "Passed Example Tests": 5
+        },
+        "1652": {
+            "Wrong Answer": 5
+        },
+        "1653": {
+            "Passed Example Tests": 5
+        },
+        "1654": {
+            "Passed Example Tests": 5
+        },
+        "1655": {
+            "Passed Example Tests": 5
+        },
+        "1656": {
+            "Passed Example Tests": 5
+        },
+        "1657": {
+            "Passed Example Tests": 5
+        },
+        "1658": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1659": {
+            "Passed Example Tests": 5
+        },
+        "1660": {
+            "Wrong Answer": 5
+        },
+        "1661": {
+            "Wrong Answer": 5
+        },
+        "1662": {
+            "Wrong Answer": 5
+        },
+        "1663": {
+            "Passed Example Tests": 5
+        },
+        "1664": {
+            "Wrong Answer": 5
+        },
+        "1665": {
+            "Wrong Answer": 5
+        },
+        "1666": {
+            "Passed Example Tests": 5
+        },
+        "1667": {
+            "Passed Example Tests": 5
+        },
+        "1668": {
+            "Wrong Answer": 5
+        },
+        "1669": {
+            "Passed Example Tests": 5
+        },
+        "1670": {
+            "Passed Example Tests": 5
+        },
+        "1671": {
+            "Passed Example Tests": 5
+        },
+        "1672": {
+            "Wrong Answer": 5
+        },
+        "1673": {
+            "Passed Example Tests": 5
+        },
+        "1674": {
+            "Passed Example Tests": 5
+        },
+        "1675": {
+            "Passed Example Tests": 5
+        },
+        "1676": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "1677": {
+            "Passed Example Tests": 5
+        },
+        "1678": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "1679": {
+            "Wrong Answer": 5
+        },
+        "1680": {
+            "Passed Example Tests": 5
+        },
+        "1681": {
+            "Passed Example Tests": 5
+        },
+        "1682": {
+            "Wrong Answer": 5
+        },
+        "1683": {
+            "Passed Example Tests": 5
+        },
+        "1684": {
+            "Passed Example Tests": 5
+        },
+        "1685": {
+            "Wrong Answer": 5
+        },
+        "1686": {
+            "Passed Example Tests": 5
+        },
+        "1687": {
+            "Passed Example Tests": 5
+        },
+        "1688": {
+            "Passed Example Tests": 5
+        },
+        "1689": {
+            "Passed Example Tests": 5
+        },
+        "1690": {
+            "Wrong Answer": 5
+        },
+        "1691": {
+            "Passed Example Tests": 5
+        },
+        "1692": {
+            "Passed Example Tests": 5
+        },
+        "1693": {
+            "Wrong Answer": 5
+        },
+        "1694": {
+            "Wrong Answer": 5
+        },
+        "1695": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "1696": {
+            "Passed Example Tests": 5
+        },
+        "1697": {
+            "Passed Example Tests": 5
+        },
+        "1698": {
+            "Passed Example Tests": 5
+        },
+        "1699": {
+            "Passed Example Tests": 5
+        },
+        "1700": {
+            "Passed Example Tests": 5
+        },
+        "1701": {
+            "Passed Example Tests": 5
+        },
+        "1702": {
+            "Passed Example Tests": 5
+        },
+        "1703": {
+            "Wrong Answer": 5
+        },
+        "1704": {
+            "Passed Example Tests": 5
+        },
+        "1705": {
+            "Passed Example Tests": 5
+        },
+        "1706": {
+            "Passed Example Tests": 5
+        },
+        "1707": {
+            "Wrong Answer": 5
+        },
+        "1708": {
+            "Passed Example Tests": 5
+        },
+        "1709": {
+            "Wrong Answer": 5
+        },
+        "1710": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1711": {
+            "Passed Example Tests": 5
+        },
+        "1712": {
+            "Passed Example Tests": 5
+        },
+        "1713": {
+            "Passed Example Tests": 5
+        },
+        "1714": {
+            "Passed Example Tests": 5
+        },
+        "1715": {
+            "Passed Example Tests": 5
+        },
+        "1716": {
+            "Wrong Answer": 5
+        },
+        "1717": {
+            "Passed Example Tests": 5
+        },
+        "1718": {
+            "Passed Example Tests": 5
+        },
+        "1719": {
+            "Wrong Answer": 5
+        },
+        "1720": {
+            "Passed Example Tests": 5
+        },
+        "1721": {
+            "Passed Example Tests": 5
+        },
+        "1722": {
+            "Passed Example Tests": 5
+        },
+        "1723": {
+            "Wrong Answer": 3,
+            "Compilation Error": 1,
+            "Runtime Error": 1
+        },
+        "1724": {
+            "Wrong Answer": 5
+        },
+        "1725": {
+            "Passed Example Tests": 5
+        },
+        "1726": {
+            "Passed Example Tests": 5
+        },
+        "1727": {
+            "Passed Example Tests": 5
+        },
+        "1728": {
+            "Passed Example Tests": 5
+        },
+        "1729": {
+            "Wrong Answer": 5
+        },
+        "1730": {
+            "Passed Example Tests": 5
+        },
+        "1731": {
+            "Passed Example Tests": 5
+        },
+        "1732": {
+            "Passed Example Tests": 5
+        },
+        "1733": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "1734": {
+            "Passed Example Tests": 5
+        },
+        "1735": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "1736": {
+            "Passed Example Tests": 5
+        },
+        "1737": {
+            "Wrong Answer": 5
+        },
+        "1738": {
+            "Passed Example Tests": 5
+        },
+        "1739": {
+            "Passed Example Tests": 5
+        },
+        "1740": {
+            "Passed Example Tests": 5
+        },
+        "1741": {
+            "Passed Example Tests": 5
+        },
+        "1742": {
+            "Passed Example Tests": 5
+        },
+        "1743": {
+            "Wrong Answer": 5
+        },
+        "1744": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1745": {
+            "Passed Example Tests": 5
+        },
+        "1746": {
+            "Passed Example Tests": 5
+        },
+        "1747": {
+            "Passed Example Tests": 5
+        },
+        "1748": {
+            "Passed Example Tests": 5
+        },
+        "1749": {
+            "Passed Example Tests": 5
+        },
+        "1750": {
+            "Wrong Answer": 5
+        },
+        "1751": {
+            "Passed Example Tests": 5
+        },
+        "1752": {
+            "Passed Example Tests": 5
+        },
+        "1753": {
+            "Passed Example Tests": 5
+        },
+        "1754": {
+            "Passed Example Tests": 4,
+            "Wrong Answer": 1
+        },
+        "1755": {
+            "Passed Example Tests": 5
+        },
+        "1756": {
+            "Wrong Answer": 5
+        },
+        "1757": {
+            "Wrong Answer": 5
+        },
+        "1758": {
+            "Passed Example Tests": 5
+        },
+        "1759": {
+            "Passed Example Tests": 5
+        },
+        "1760": {
+            "Passed Example Tests": 5
+        },
+        "1761": {
+            "Passed Example Tests": 5
+        },
+        "1762": {
+            "Passed Example Tests": 5
+        },
+        "1763": {
+            "Passed Example Tests": 5
+        },
+        "1764": {
+            "Wrong Answer": 1,
+            "Passed Example Tests": 4
+        },
+        "1765": {
+            "Wrong Answer": 2,
+            "Passed Example Tests": 3
+        },
+        "1766": {
+            "Wrong Answer": 5
+        },
+        "1767": {
+            "Passed Example Tests": 5
+        },
+        "1768": {
+            "Passed Example Tests": 5
+        },
+        "1769": {
+            "Passed Example Tests": 5
+        },
+        "1770": {
+            "Wrong Answer": 5
+        },
+        "1771": {
+            "Passed Example Tests": 5
+        },
+        "1772": {
+            "Passed Example Tests": 5
+        },
+        "1773": {
+            "Passed Example Tests": 5
+        },
+        "1774": {
+            "Wrong Answer": 5
+        },
+        "1775": {
+            "Wrong Answer": 5
+        },
+        "1776": {
+            "Passed Example Tests": 5
+        },
+        "1777": {
+            "Wrong Answer": 5
+        },
+        "1778": {
+            "Passed Example Tests": 5
+        },
+        "1779": {
+            "Passed Example Tests": 5
+        },
+        "1780": {
+            "Wrong Answer": 5
+        },
+        "1781": {
+            "Passed Example Tests": 5
+        },
+        "1782": {
+            "Passed Example Tests": 5
+        },
+        "1783": {
+            "Passed Example Tests": 5
+        },
+        "1784": {
+            "Wrong Answer": 5
+        },
+        "1785": {
+            "Wrong Answer": 5
+        },
+        "1786": {
+            "Passed Example Tests": 5
+        },
+        "1787": {
+            "Passed Example Tests": 5
+        },
+        "1788": {
+            "Passed Example Tests": 5
+        },
+        "1789": {
+            "Passed Example Tests": 5
+        },
+        "1790": {
+            "Passed Example Tests": 5
+        },
+        "1791": {
+            "Wrong Answer": 1,
+            "Passed Example Tests": 4
+        },
+        "1792": {
+            "Passed Example Tests": 5
+        },
+        "1793": {
+            "Passed Example Tests": 5
+        },
+        "1794": {
+            "Wrong Answer": 5
+        },
+        "1795": {
+            "Passed Example Tests": 5
+        },
+        "1796": {
+            "Passed Example Tests": 5
+        },
+        "1797": {
+            "Passed Example Tests": 5
+        },
+        "1798": {
+            "Wrong Answer": 5
+        },
+        "1799": {
+            "Passed Example Tests": 5
+        },
+        "1800": {
+            "Wrong Answer": 5
+        },
+        "1801": {
+            "Passed Example Tests": 5
+        },
+        "1802": {
+            "Wrong Answer": 5
+        },
+        "1803": {
+            "Passed Example Tests": 5
+        },
+        "1804": {
+            "Passed Example Tests": 5
+        },
+        "1805": {
+            "Passed Example Tests": 5
+        },
+        "1806": {
+            "Passed Example Tests": 5
+        },
+        "1807": {
+            "Passed Example Tests": 5
+        },
+        "1808": {
+            "Passed Example Tests": 5
+        },
+        "1809": {
+            "Passed Example Tests": 5
+        },
+        "1810": {
+            "Passed Example Tests": 5
+        },
+        "1811": {
+            "Passed Example Tests": 5
+        },
+        "1812": {
+            "Passed Example Tests": 5
+        },
+        "1813": {
+            "Passed Example Tests": 5
+        },
+        "1814": {
+            "Passed Example Tests": 5
+        },
+        "1815": {
+            "Wrong Answer": 5
+        },
+        "1816": {
+            "Wrong Answer": 4,
+            "Compilation Error": 1
+        },
+        "1817": {
+            "Passed Example Tests": 5
+        },
+        "1818": {
+            "Passed Example Tests": 3,
+            "Wrong Answer": 2
+        },
+        "1819": {
+            "Passed Example Tests": 5
+        },
+        "1820": {
+            "Wrong Answer": 4,
+            "Runtime Error": 1
+        },
+        "1821": {
+            "Passed Example Tests": 5
+        },
+        "1822": {
+            "Wrong Answer": 5
+        },
+        "1823": {
+            "Passed Example Tests": 5
+        },
+        "1824": {
+            "Passed Example Tests": 5
+        },
+        "1825": {
+            "Wrong Answer": 5
+        },
+        "1826": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "1827": {
+            "Passed Example Tests": 5
+        },
+        "1828": {
+            "Wrong Answer": 5
+        },
+        "1829": {
+            "Passed Example Tests": 5
+        },
+        "1830": {
+            "Passed Example Tests": 5
+        },
+        "1831": {
+            "Passed Example Tests": 5
+        },
+        "1832": {
+            "Passed Example Tests": 5
+        },
+        "1833": {
+            "Passed Example Tests": 5
+        },
+        "1834": {
+            "Passed Example Tests": 5
+        },
+        "1835": {
+            "Passed Example Tests": 5
+        },
+        "1836": {
+            "Passed Example Tests": 5
+        },
+        "1837": {
+            "Passed Example Tests": 5
+        },
+        "1838": {
+            "Passed Example Tests": 5
+        },
+        "1839": {
+            "Passed Example Tests": 5
+        },
+        "1840": {
+            "Passed Example Tests": 5
+        },
+        "1841": {
+            "Passed Example Tests": 5
+        },
+        "1842": {
+            "Passed Example Tests": 5
+        },
+        "1843": {
+            "Passed Example Tests": 5
+        },
+        "1844": {
+            "Passed Example Tests": 5
+        },
+        "1845": {
+            "Wrong Answer": 3,
+            "Passed Example Tests": 2
+        },
+        "1846": {
+            "Wrong Answer": 5
+        },
+        "1847": {
+            "Passed Example Tests": 5
+        },
+        "1848": {
+            "Passed Example Tests": 5
+        },
+        "1849": {
+            "Wrong Answer": 5
+        },
+        "1850": {
+            "Wrong Answer": 5
+        },
+        "1851": {
+            "Wrong Answer": 5
+        },
+        "1852": {
+            "Passed Example Tests": 5
+        },
+        "1853": {
+            "Wrong Answer": 5
+        },
+        "1854": {
+            "Passed Example Tests": 5
+        },
+        "1855": {
+            "Passed Example Tests": 5
+        },
+        "1856": {
+            "Passed Example Tests": 2,
+            "Wrong Answer": 3
+        },
+        "1857": {
+            "Passed Example Tests": 5
+        },
+        "1858": {
+            "Passed Example Tests": 5
+        },
+        "1859": {
+            "Passed Example Tests": 5
+        },
+        "1860": {
+            "Passed Example Tests": 5
+        },
+        "1861": {
+            "Wrong Answer": 4,
+            "Passed Example Tests": 1
+        },
+        "1862": {
+            "Passed Example Tests": 5
+        },
+        "1863": {
+            "Passed Example Tests": 5
+        },
+        "1864": {
+            "Passed Example Tests": 5
+        },
+        "1865": {
+            "Passed Example Tests": 5
+        },
+        "1866": {
+            "Passed Example Tests": 5
+        },
+        "1867": {
+            "Passed Example Tests": 5
+        },
+        "1868": {
+            "Passed Example Tests": 5
+        },
+        "1869": {
+            "Passed Example Tests": 5
+        },
+        "1870": {
+            "Passed Example Tests": 5
+        },
+        "1871": {
+            "Passed Example Tests": 5
+        },
+        "1872": {
+            "Passed Example Tests": 5
+        },
+        "1873": {
+            "Passed Example Tests": 5
+        },
+        "1874": {
+            "Passed Example Tests": 5
+        },
+        "1875": {
+            "Wrong Answer": 5
+        },
+        "1876": {
+            "Passed Example Tests": 5
+        },
+        "1877": {
+            "Passed Example Tests": 5
+        },
+        "1878": {
+            "Passed Example Tests": 5
+        },
+        "1879": {
+            "Passed Example Tests": 5
+        },
+        "1880": {
+            "Wrong Answer": 5
+        },
+        "1881": {
+            "Passed Example Tests": 5
+        },
+        "1882": {
+            "Wrong Answer": 5
+        }
+    }
+}
