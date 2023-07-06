@@ -94,12 +94,18 @@ this prompt.
 
 Logical Errors Section: 
 
-Prompt 4: Question has an error in formatting potentially, it's using implicit multiplication. The question is also
+Prompt 4: 
+
+Question has an error in formatting potentially, it's using implicit multiplication. The question is also
 implicitly asking for an integer answer. That aside for a moment, the model executes the steps correctly until
 it multiplies the answer by 100 for an unknown reason. Perhaps it things it's trying to calculate a percentage? 
 Regardless if the model didn't multiply by 100 and converted the float to an int, the answer would be correct. 
 
 
+Prommpt 8: wtf? 
 
+Prompt 10: Correct answer, was incorrectly categorized as wrong due to a difference in rounding.
+
+Prompt 19: Where the hell does the 1 come from?
 
 
