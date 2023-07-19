@@ -1,0 +1,15 @@
+{
+    "predict_samples": 1319,
+    "test_round_0_estimated_pass@1": 25.7089,
+    "test_round_0_estimated_pass@20": 36.8461,
+    "test_round_0_estimated_pass@5": 32.6495,
+    "test_round_0_raw_pass@20": 36.8461,
+    "test_round_1_estimated_pass@1": 25.7809,
+    "test_round_1_estimated_pass@20": 36.0121,
+    "test_round_1_estimated_pass@5": 32.2841,
+    "test_round_1_raw_pass@1": 36.0121,
+    "test_round_2_estimated_pass@1": 25.6899,
+    "test_round_2_estimated_pass@20": 36.0121,
+    "test_round_2_estimated_pass@5": 31.7839,
+    "test_round_2_raw_pass@1": 36.0121
+}

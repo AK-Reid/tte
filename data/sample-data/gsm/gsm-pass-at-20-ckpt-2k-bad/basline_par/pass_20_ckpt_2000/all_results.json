@@ -1,0 +1,7 @@
+{
+    "predict_samples": 1319,
+    "test_estimated_pass@1": 27.4488,
+    "test_estimated_pass@20": 35.0265,
+    "test_estimated_pass@5": 32.0928,
+    "test_raw_pass@20": 35.0265
+}

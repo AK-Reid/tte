@@ -12,7 +12,7 @@ n1=2
 n2=16
 n3=4
 t0=n0*n1 #Note this line is incorrect, yet the end answer is still correct since it's not used
-t1=n2-n0-n3
+>t1=n2-n0-n3
 answer=t1*n1
 
 Ground Truth Answer: 18.0 | Generated Answer: 18
@@ -24,7 +24,7 @@ n0=3
 n1=4
 n2=16
 n3=2
-t0=n0+n1+n1
+>t0=n0+n1+n1
 t1=n2-t0
 answer=t1*n3
 
@@ -47,8 +47,13 @@ Ground Truth Answer: 18.0 | Generated Answer: 3.5
 Notes: 
 Types of errors listed are relative to the correct cluster
 
-Cluster 2: Operator switch, operand switch. 
-Cluster 3: Last line error, incorrect step.
+Cluster 2: 2 incorrect operators, 2 incorrect variable operands. 
+		Extra statement error. 
+		1 incorrect variable operand in ititialization of answer.
+
+Cluster 3: 2 incorect operators, 1 incorrect variable operand. 
+		   Extra statement error, creation of variable t2
+		   1 incorrect variable operand using t2 to compute the answer. 
 
 ==========================================================================================================
 
@@ -65,8 +70,8 @@ n1=4
 n2=45
 n3=10
 
-t0=n0*n1
-t1=n2*n3
+>t0=n0*n1
+>t1=n2*n3
 
 answer=t1-t0
 
@@ -78,17 +83,18 @@ n1=4
 n2=45
 n3=10
 
-t0=n0/n1
-t1=n2/n3
+>t0=n0/n1
+>t1=n2/n3
 
 answer=t1-t0
 
 Ground Truth Answer: 230.0 | Generated Answer: -9.25
 
 Notes: 
-Types of errors listed are relative to the correct cluster
 
-Cluster 2: Operator switch in the the isolated lines, should have been multiplication instead of division.
+Cluster 2: 
+	1 incorrect operator in initalization of t0, / should be *.
+	1 incorrect operator in initalization of t1, / should be *. 
 
 =============================================================================================================
 
@@ -99,22 +105,22 @@ QUESTION:
 Janet gets a job as a waitress.  She makes $10 an hour from wages and another $15 an hour from tips.  She wants to save up 20% of the cost of a $10000 car for a downpayment.  If she works 40 hours a week how many weeks will she need to work to save the down payment?
 ANSWER:
 
-Correct Generated Code[0, 3, 5, 6, 8, 11]:
+Correct Generated Code[0, 3, 5, 6, 8, 11], Cluster 0:
 n0=10
 n1=15
 n2=40
 n3=0.2
 n4=10000
 t0=n0+n1
-t1=n2*t0
-t2=n3*n4
+>t1=n2*t0
+>>t2=n3*n4
 answer=t2/t1
 
 Ground Truth Answer: 2.0 | Generated Answer: 2.0
 
 ----------------------------------------------------------------------
 
-Correct Generated Code[1, 4, 7, 9, 10, 12, 13, 14, 15, 16, 17, 19]:
+Correct Generated Code[1, 4, 7, 9, 10, 12, 13, 14, 15, 16, 17, 19], Cluster 1:
 n0=10
 n1=15
 n2=40
@@ -128,7 +134,7 @@ answer=t2/t1
 
 Ground Truth Answer: 2.0 | Generated Answer: 2.0
 
-Incorrect Generated Code[2, 18]:
+Incorrect Generated Code[2, 18], Cluster 2:
 n0=10
 n1=15
 n2=40
@@ -137,59 +143,19 @@ n4=10000
 t0=n0+n1
 
 >t1=n2*n3
-t2=n4-t1
+>>t2=n4-t1
 
 answer=t2/t0
 
 Ground Truth Answer: 2.0 | Generated Answer: 399.68
 
-Notes: The two correct clusters differr only by a swap in order of multplication of variables. The incorrect solution contains a variable switch, n3 should be t0, and the model continues to make 
-incorrect calculations based off that. 
+Notes: The two correct clusters(0, 1) differr only by order of multiplication of variables, thus the result is the same but the strings are different. 
+
+Cluster 2: 1 incorrect variable operand in italization of t1, n3 should be t0.
+		   1 incorrect operator and 1 incorrect variable operand in initalization of t2. 
+		   1 incorrect variable operand in the intialization of answer, t0 should be t1. 
 
 ==================================================================================================
-
-Prompt: test_1015
-
-QUESTION:
-Anne purchased a box of sweets that contains 15 packs, and each pack has 60 pieces. She kept two packs and gave the rest to her 10 friends equally. How many pieces of sweets did each of her friends receive?
-ANSWER:
-
-Correct Generated Code[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 17]:
-n0=15
-n1=60
-n2=2
-n3=10
-t0=n0*n1
-
-t1=n2*n1
-t2=t0-t1
-answer=t2/n3
-
-Ground Truth Answer: 78.0 | Generated Answer: 78.0 
-
----------------------------------------------------------------------------------
-
-Incorrect Generated Code[0, 13, 16, 18, 19]
-n0=15
-n1=60
-n2=2
-n3=10
-t0=n0*n1
-
->t1=n0-n2
->t2=t1*n3
-answer=t2/n3
-
-Ground Truth Answer: 78.0 | Generated Answer: 13.0
-
-Notes: Operand and operator switch in last two lines. 
-
-===============================================
-Prompt: test_1020
-
-Notes: All correct, difference clusters produced as a result of associative property of multiplication.
-
-================================================
 
 Prompt: test_1028
 
@@ -197,7 +163,7 @@ QUESTION:
 Tom buys a bedroom set for $3000.  He sells his old bedroom for $1000 and uses that to pay for part of the bedroom set.  He then has to pay 10% a month for the bedroom set.  How much does he have to pay per month?
 ANSWER:
 
-Correct Generated Code[0, 1, 2, 4, 5, 6, 11, 12, 13, 15, 16, 17, 18, 19]:
+Correct Generated Code[0, 1, 2, 4, 5, 6, 11, 12, 13, 15, 16, 17, 18, 19], Cluster 0:
 n0=3000
 n1=1000
 n2=0.1
@@ -208,7 +174,7 @@ Ground Truth Answer: 200.0 | Generated Answer: 200.0
 
 -------------------------------------------------------------------
 
-Incorrect Generated Code[3, 7, 8, 9, 10, 14]
+Incorrect Generated Code[3, 7, 8, 9, 10, 14], Cluster 1:
 n0=3000
 n1=1000
 n2=0.1
@@ -218,7 +184,7 @@ answer=t0+t1
 
 Ground Truth Answer: 200.0 | Generated Answer: 2200.0
 
-Notes: Operand and operator switch on last line. + should be * and t1 should be n2.
+Notes: 1 incorrect variable operand and 1 incorrect operator in the intialization of answer. + should be * and t1 should be n2.
 
 =============================================================================================
 
@@ -234,7 +200,7 @@ Correct Generated Code[0, 1, 2, 3, 4, 5, 6, 8, 10, 11, 13, 14, 16, 18, 19]:
 n0=2
 n1=40
 n2=8
-t0=n0*n1
+>t0=n0*n1
 answer=t0/n2
 
 Ground Truth Answer: 10.0 | Generated Answer: 10.0
@@ -250,7 +216,7 @@ answer=t0/n2
 
 Ground Truth Answer: 10.0 | Generated Answer: 2.5
 
-Notes: Operator switch, / should be *
+Notes: 1 incorrect operator in intialization of t0, / should be *
 
 =================================================================================================
 
@@ -310,7 +276,18 @@ answer=t0+t1
 
 Ground Truth Answer: 101.0 | Generated Answer: 199.0
 
-Notes: Cluster 2: Operand and operator switch. Cluster 3: Operator switch. Cluster 4: Operand and operator switch.
+Notes: 
+	Cluster 2: 1 incorrect variable operand and 1 incorrect operator in the intialization of t1. n3 should be n0 and * should be -.
+			   1 incorrect variable operand in initalizaiton of answer, t1 should be t2.
+
+	Cluster 3: 1 incorrect operator, * should be -.  
+			   1 incorrect variable operand in intalization of t2, n3 should be t1. 
+			   1 incorrect variable operand and one extra incorrect operator in the initalization of answer. 
+
+	Cluster 4: 1 incorrect variable operand and 1 incorrect operator in the intialization of t1. n3 should be n0 and * should be -.
+					Statements are the same logically as cluster 2, both clusters are incorrect, but their answers differ because they copied 
+					variables differently.
+				1 incorrect variable operand in italization of answer, t1 should be t2.
 
 ====================================================================================================================
 
@@ -334,7 +311,7 @@ n3=2
 n4=8
 t0=n0+n1
 t1=n2/n3
-t2=n0+t0+t1
+>t2=n0+t0+t1
 
 t3=n4-n3
 
@@ -352,7 +329,7 @@ n3=2
 n4=8
 t0=n0+n1
 t1=n2/n3
-t2=t1+t0+n4
+>t2=t1+t0+n4
 
 >answer=t2-n3
 
@@ -375,7 +352,9 @@ answer=t2-t3
 
 Ground Truth Answer: 55.0 | Generated Answer: 33.0
 
-Notes: Cluster2: operator flip in last line. Cluster 3, operator flip in second to last line.
+Notes:  Cluster2: 1 incorrect variable operand in intialization of t2, n4 should be n0. 
+				  1 incorrect operator and 1 incorrect variable operand in initalization of answer - should be + and n3 should be t3.
+		Cluster 3: 1 incorrect operator in initalization of t3, * should be -.
 
 ====================================================================================================
 
@@ -394,9 +373,9 @@ n2=3
 n3=30
 n4=25
 t0=n0*n1
-t1=n0*n2
+>t1=n0*n2
 
->t2=n3+t0+t1+n4
+t2=n3+t0+t1+n4
 answer=n0+t2
 
 Ground Truth Answer: 247.0 | Generated Answer: 247
@@ -410,9 +389,9 @@ n2=3
 n3=30
 n4=25
 t0=n0*n1
-t1=t0*n2
+>t1=t0*n2
 
->t2=n3+n4
+t2=n3+n4
 answer=n0+t0+t1+t2
 
 Ground Truth Answer: 247.0 | Generated Answer: 343
@@ -426,14 +405,18 @@ n2=3
 n3=30
 n4=25
 t0=n0*n1
-t1=t0*n2
+>t1=t0*n2
 
->t2=n3*n4
+t2=n3*n4
 answer=n0+t0+t1+t2
 
 Ground Truth Answer: 247.0 | Generated Answer: 1038
 
-Notes: Operand and operator switch. 
+Notes: 
+	Cluster 2: 1 incorrect variable operand in initalization of t1, t0 should be n0, following statements are all correct despite looking slightly different. 
+	Cluster 3: 1 incorrect variable operand in initalization of t1, t0 should be n0,
+			   Incorect operator and missing additional 2 variable operands and 2 operators.   
+
 
 ===================================================================================
 
@@ -464,7 +447,7 @@ answer=n2*t0
 
 Ground Truth Answer: 26.0 | Generated Answer: 416
 
-Notes: Operator switch.
+Notes: 1 incorrect operator in intialization of t0, * should be /. 
 
 ======================================================================================
 
@@ -493,7 +476,7 @@ n1=6
 n2=3
 t0=n0*n1
 t1=n2*n1
-t2=t1+t0
+>t2=t1+t0
 
 answer=t2*n1
 
@@ -515,9 +498,12 @@ Ground Truth Answer: 12.0 | Generated Answer: -72
 
 ------------------------------------------------------
 
-Notes: Cluster 2: Operator and operand switch. Cluster 3: Operator and operand switch. 
+Notes:  Cluster 2: 1 incorrect additional statment creating the variable t2. 
+				   2 incorrect variable operands and 1 incorrect operator in initalization of answer.
 
-==========================================================================================
+		Cluster 3: 1 incorrect additional statment creating the variable t2. 
+				   2 incorrect variable operands and 1 incorrect operator in initalization of answer.
+===========================================================================================
 
 Prompt: test_1089
 
@@ -549,7 +535,9 @@ Ground Truth Answer: 32.0 | Generated Answer: -8.0
 
 -----------------------------------------------------------
 
-Notes: Cluster 2: Operand switch, followed by operand and operator switch in next line. 
+Notes: 
+	Cluster 2: 1 incorrect operator in intalization of t0, * should be /.
+			   1 incorrect variable operand and 1 incorrect operator in initalization of answer, n0 should be n2 and - should be *. 
 
 ===========================================================================================
 
@@ -564,7 +552,7 @@ Pierre, Paul, and Jacques bought 12 kg of apples. Peter wants a quarter of that 
 ANSWER:
 
 
-Correct Generated Code[0, 1, 2, 3, 4, 5, 8, 10, 11, 12, 13, 15, 16, 18, 19]:
+Correct Generated Code[0, 1, 2, 3, 4, 5, 8, 10, 11, 12, 13, 15, 16, 18, 19], Cluster 0:
 n0=12
 n1=1
 n2=4
@@ -579,7 +567,7 @@ Ground Truth Answer: 5.0 | Generated Answer: 5.0
 
 ------------------------------------------------------------------------------
 
-Incorrect Generated Code[6, 7, 9, 14, 17]:
+Incorrect Generated Code[6, 7, 9, 14, 17], Cliuster 1:
 n0=12
 n1=1
 n2=4
@@ -594,7 +582,7 @@ Ground Truth Answer: 5.0 | Generated Answer: 6.0
 
 ---------------------------------------------------------------------------------
 
-Notes: Operand and operator switch
+Notes: 1 incorrect variable operand and 1 incorrect operator in initalization of t1, t0 should be n3 and - should be /.
 
 ===========================================================================================
 
@@ -606,7 +594,7 @@ Elijah has one dog that is one-fourth the weight of Kory’s dog and another dog
 ANSWER:
 
 
-Correct Generated Code[4, 9, 10, 11, 12, 14, 17]:
+Correct Generated Code[4, 9, 10, 11, 12, 14, 17], Cluster 0:
 n0=60
 n1=4
 n2=2
@@ -619,7 +607,7 @@ Ground Truth Answer: 105.0 | Generated Answer: 105.0
 
 ---------------------------------------------------------------------------
 
-Incorrect Generated Code[0, 1, 2, 3, 5, 8, 13, 15, 16, 18, 19]:
+Incorrect Generated Code[0, 1, 2, 3, 5, 8, 13, 15, 16, 18, 19], Cluster 1:
 n0=60
 n1=4
 n2=2
@@ -631,7 +619,9 @@ Ground Truth Answer: 105.0 | Generated Answer: 45.0
 
 ------------------------------------------------------------------------
 
-Notes: Extra step error.
+Notes: 
+	Cluster 1: Missing a statement that initalizes t2. 
+			   2 incorect variable operands in initalization of answer. 
 
 ======================================================================================= 
 
@@ -644,7 +634,7 @@ Juan asked his neighbor, Herb, how much his house was worth. Herb answered that 
 ANSWER:
 
 
-Correct Generated Code[2, 15, 16, 18]:
+Correct Generated Code[2, 15, 16, 18], Cluster 0:
 n0=76000
 n1=0.3
 t0=n0*n1
@@ -656,7 +646,7 @@ Ground Truth Answer: 129200.0 | Generated Answer: 129200.0
 
 -----------------------------------------------------------------------
 
-Incorrect Generated Code[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 17, 19]:
+Incorrect Generated Code[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 17, 19], Cluster 1:
 n0=76000
 n1=0.3
 t0=n0*n1
@@ -667,7 +657,9 @@ Ground Truth Answer: 129200.0 | Generated Answer: 98800.0
 
 --------------------------------------------------------------------------
 
-Notes: Operand error, early stopping error. 
+Notes: 
+	Cluster 1: Missing a statement that initalizes variable t1. 
+			   1 incorrect variable operand in intalization of answer, t0 should be t1. 
 
 =========================================================================================
 
@@ -683,7 +675,7 @@ Correct Generated Code[0, 2, 3, 4, 5, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18]
 n0=5
 n1=2
 t0=n0*n0
-t1=t0+n0
+>t1=t0+n0
 answer=t1/n1
 
 Ground Truth Answer: 15.0 | Generated Answer: 15.0
@@ -694,14 +686,14 @@ Incorrect Generated Code[1, 6, 9, 19]:
 n0=5
 n1=2
 t0=n0*n0
-t1=t0/n1
+>t1=t0/n1
 answer=t1/n1
 
 Ground Truth Answer: 15.0 | Generated Answer: 6.25
 
 --------------------------------------------------------------------------------
 
-Notes: Operator swap error. 
+Notes: 1 incorrect operator and 1 incorrect variable operand in initalization of t1, / should be + and n1 should ne n0. 
 
 ======================================================================================
 
