@@ -1,0 +1,1131 @@
+All of the incorrect baseline generations are from the intersection of 
+prompts where the basline is incorrect and s3c is correct. 
+
+Prompt: test_1228 
+
+Count: 0
+Incorrect Basline Generation: 
+n0=27
+n1=12
+n2=8
+t0=n0-n1
+answer=t0+n2
+Generated Answer: 23
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=27
+n1=12
+n2=8
+t0=n0+n1
+answer=t0-n2
+Ground Truth Answer: 31.0
+----------------------------------------------------------------
+Notes: 1 incorrect operator in initalization of t0, - should be +, and 1 incorrect operator in initalization of answer, + should be -. 
+
+Basline Generation(Incorrect):
+Infix: (27 - 12) + 8 
+Postfix: 27 12 - 8 +
+
+Ground Truth(Correct):
+Infix: ( 27 + 12 ) - 8
+Postfix: 27 12 + 8 - 
+
+
+|=================================================================================================================================|
+
+Prompt: test_1141 
+
+Count: 1
+Incorrect Basline Generation: 
+n0=3
+n1=60
+n2=5
+n3=12
+t0=n0*n1
+t1=n2*n1
+t2=t0+t1
+t3=t2/n3
+answer=n1/t3
+Generated Answer: 1.5
+
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=3
+n1=30
+n2=5
+t0=n0*n1
+t1=n2*n1
+answer=t0+t1
+Ground Truth Answer: 20.0
+----------------------------------------------------------------
+Notes: Copy failure, the incorrect generation doesn't copy the value of 30 into a variable, so it can't calculate the correct answer.
+
+Basline Generation(Incorrect):
+Infix: 60 / (((3*60) + (5*60)) / 12)
+Postfix: 60 3 60 * 5 60 * + 12 / /
+
+Ground Truth(Correct):
+Wrong Ground Truth 
+
+Infix: (3 * 30) + (5 * 30)
+Postfix: 3 30 * 5 30 * +
+|=================================================================================================================================|
+
+Prompt: test_523 
+
+Count: 2
+Incorrect Basline Generation: 
+n0=93
+n1=39
+n2=200
+n3=6
+t0=n0+n1
+t1=n2-t0
+answer=t1-n3
+Generated Answer: 62
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=93
+n1=39
+n2=200
+n3=6
+t0=n0+n1
+t1=n2-t0
+answer=n3+t1
+Ground Truth Answer: 74.0
+----------------------------------------------------------------
+Notes: 2 incorrect operators in initalization of t1 and t0. 
+		In the correct program: t0 = n0-n1-n2
+		In the incorrect program: t0 = n0+n1 and t1 = n2-t0, therefore t1 = n2 - (n0+n1) = n2 - n0 - n1
+		So the true comparison is thus(note t0 and t1 are equivalents across these two programs)
+		Correct program:  t0 = n0 - n1 - n2
+		Incorrect program t1 = n2 - n0 - n1
+
+		Therefore, n2 should be -, and n0 should be +. So there are two incorrect operators in the initalization of t1.
+
+		In the initalization of answer, there is also 1 incorrect operator, - should be +. 
+
+
+Basline Generation(Incorrect):
+Infix: (200 - (93 + 39)) - 6
+Postfix: 200 93 39 + - 6 - 
+
+Ground Truth(Correct):
+Infix: 6 + (200 - (93 + 39))
+Postfix: 6 200 93 39 + - + 
+|=================================================================================================================================|
+
+Prompt: test_731 
+
+Count: 3
+Incorrect Basline Generation: 
+n0=8
+n1=3
+n2=9
+n3=2
+n4=6
+n5=1
+t0=n0/n1
+t1=n2*n3
+t2=n4*n5
+t3=t0+t1+t2
+answer=t3/n1
+Generated Answer: 8.88888888888889
+----------------------------------------------------------------
+Manual Trace: 
+Incorrect:
+t0 = 8/3
+t1 = 9*2
+t2 = 6*1
+t3 = 8/3 + 18 + 6
+answer = (8/3 + 18 + 6) / 3 = 8.88889
+
+Correct:
+t0 = 9*2
+t1 = 6*1
+t2 = 9*2 + 6*1 
+t3 = (9*2 + 6*1) / 8 = 3
+answer = 3 / 3 = 1.0
+
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=8
+n1=3
+n2=9
+n3=2
+n4=6
+n5=1
+t0=n0*n1
+t1=n2*n3
+t2=n4*n5
+t3=t1+t2
+answer=t3/t3
+Ground Truth Answer: 1.0
+----------------------------------------------------------------
+Notes: 2 wrong operands and 1 wrong operator in initalization of t0. 
+	   2 wrong operands in initalization of t1. 
+	   2 wrong operands and 1 wrong operator in initalization of t2. 
+
+Basline Generation(Incorrect):
+Infix: (8 / 3 + 9 * 2 + 6 * 1) / 3
+Postfix: 8 3 / 9 2 * + 6 1 * + 3 /
+
+Ground Truth(Correct):
+Infix: (9 * 2 + 6 * 1) / (9 * 2 + 6 * 1)
+Postfix: 9 2 * 6 1 * + 9 2 * 6 1 * + /
+
+|=================================================================================================================================|
+
+Prompt: test_48 
+
+('QUESTION:\n'
+ 'Tracy used a piece of wire 4 feet long to support tomato plants in the '
+ 'garden. The wire was cut into pieces 6 inches long. How many pieces did she '
+ 'obtain?\n'
+ 'ANSWER:\n')
+
+Count: 4
+Incorrect Basline Generation: 
+n0=4
+n1=6
+t0=n0*n1
+answer=t0/n1
+Generated Answer: 4.0
+
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=12
+n1=4
+n2=6
+t0=n0*n1
+answer=t0/n2
+Ground Truth Answer: 8.0
+----------------------------------------------------------------
+Notes: Copy failure, there is no 12 present in the incorrect calculation.
+
+Basline Generation(Incorrect):
+Infix: (4 * 6) / 6  
+Postfix: 4 6 * 6 /
+
+Ground Truth(Correct):
+Infix: (12 * 4) / 6
+Postfix: 12 4 * 6 /  
+
+
+|=================================================================================================================================|
+
+Prompt: test_1272 
+
+('QUESTION:\n'
+ 'Helen went on a trip through Germany. She booked a hotel for 3 nights and '
+ 'rode the bus 7 times during that trip. One night at the hotel was a cost of '
+ '$80, and every bus trip was 10% of the price of one night at the hotel. How '
+ 'much did Helen pay for the hotel and bus travels during that trip?\n'
+ 'ANSWER:\n')
+
+Count: 5
+Incorrect Basline Generation: 
+n0=80
+n1=3
+n2=7
+n3=0.1
+t0=n0*n1 # = 80*3 = 240
+t1=n2*n3 # = 7*0.1 = 0.7
+answer=t0+t1 # = 240 + 0.7 = 240.7
+Generated Answer: 240.7
+
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=3
+n1=80
+n2=10
+n3=100
+n4=7
+t0=n0*n1
+t1=n1*n2/n3
+t2=n4*t1
+answer=t0+t2
+Ground Truth Answer: 296.0
+----------------------------------------------------------------
+Notes: 1 incorrect operand in the initalization of t1, 7 should be 80. 
+	   1 missing statement error, the result from the previous step should be multiplied by 8.
+	   1 incorrect operand in the initalization of answer.
+
+Basline Generation(Incorrect):
+Infix: (80 * 3) + (7 * 0.1)
+Postfix: 80 3 * 7 0.1 * +
+
+Ground Truth(Correct):
+Infix: (3 * 80) + (7 * (80 * 10 / 100))
+Postfix: 3 80 * 7 80 10 * 100 / * +
+|=================================================================================================================================|
+
+Prompt: test_27 
+
+Count: 6
+Incorrect Basline Generation: 
+n0=15
+n1=4.0
+n2=60
+t0=n0*n1 # = 15*4 = 60
+answer=n2*t0 # = 60*(60) = 3600
+Generated Answer: 3600.0
+
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=4.0
+answer=n0*n0
+Ground Truth Answer: 16.0
+----------------------------------------------------------------
+Notes: 1 wrong operand in the initalization of t0.
+	   2 wrong operands in the initalization of answer.
+
+	   However even the correct generation took a strange route to solve the problem, it should have simply squared n0. 
+
+Basline Generation(Incorrect):
+Infix: 60 * (15 * 4.0)
+Postfix: 60 15 4.0 * *
+
+Ground Truth(Correct):
+Infix: 4.0 * 4.0
+Postfix: 4.0 4.0 * 
+|=================================================================================================================================|
+
+Prompt: test_497 
+
+Count: 7
+Incorrect Basline Generation:  
+
+n0=14
+n1=2
+n2=6
+n3=7
+t0=n0*n1 # = 14 * 2 = 28
+t1=n0*n2 # = 14 * 6 = 84
+t2=t0*n3 # = 28 * 7 = 196
+t3=t1*n1 # = 84 * 2 = 168
+t4=t2+t3 # = 196 + 168 = 364
+answer=t4*n3 # = 364 * 7 = 2548
+Generated Answer: 2548
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=14
+n1=6
+n2=2
+t0=n0*n1
+t1=n0*n2
+answer=t0+t1
+Ground Truth Answer: 112.0
+----------------------------------------------------------------
+Notes: 
+	First three logical statements have 1 wrong operator each on the right hand side. 
+	The remaning logical statements are completely wrong. 
+
+	Basline Generation(Incorrect):
+	Infix: ((14 * 2) * 7 + (14 * 6) * 2) * 7
+	Postfix: 14 2 * 7 * 14 6 * 2 * + 7 * 
+
+	Ground Truth(Correct):
+	Infix: (14 * 6) + (14 * 2)
+	Postfix: 14 6 * 14 2 * +
+|=================================================================================================================================|
+
+Prompt: test_923 
+
+Count: 8
+Incorrect Basline Generation: 
+
+n0=27
+n1=3
+n2=15
+t0=n0/n1
+t1=n0-t0
+answer=t1/n2
+Generated Answer: 1.2
+----------------------------------------------------------------
+
+Ground Truth Program: 
+
+n0=27
+n1=15
+n2=2
+n3=3
+t0=n0-n1
+t1=t0/n2
+answer=t1/n3
+Ground Truth Answer: 2.0
+----------------------------------------------------------------
+Notes: 1 wrong operand in initalization of t1, n0 should be n2. 
+	   1 wrong operand in the initalization of answer, n2 should be n1. 
+
+		Basline Generation(Incorrect):
+		Infix: (27 - 27/3) / 15
+		Postfix: 27 27 3 / - 15 /
+
+		Ground Truth(Correct):
+		Infix: (27 - 15) / (2 * 3)
+		Postfix: 27 15 - 2 3 * /  	   
+|=================================================================================================================================|
+
+Prompt: test_994 
+
+Count: 9
+Incorrect Basline Generation: 
+
+n0=20
+n1=60
+n2=2
+n3=1
+t0=n0*n1 # = 20 * 60 = 1200
+t1=n2*t0 # = 2 * 1200 = 2400
+t2=t1+t0+t1 # = 2400 + 1200 + 2400 = 6000
+t3=n3+n3 # = 1 + 1 = 2
+answer=t2*t3 # = 6000 * 2 = 12000
+Generated Answer: 12000
+----------------------------------------------------------------
+
+Ground Truth Program: 
+
+n0=20
+n1=2
+t0=n0*n1 # = 20*2 = 40 
+t1=n0+t0 # = 20+40 = 60 
+t2=n0+t0+t1 # = 20 + 40 + 60 = 120 
+answer=t2/t1 # = 120 / 60 = 2
+Ground Truth Answer: 2.0
+----------------------------------------------------------------
+Notes: 1 wrong operand in initalization of t0, model multiplies 20 * 60 instead of 20 * 2. 
+	   1 wrong operand in intialization of t1, model multiplies 2 * 1200 instead of 2 * 40. 
+	   1 wrong extra operand and one wrong extra operator, model sums t1 twice. 
+	   2 wrong operand and 1 wrong operator in initalization of answer.
+
+	    Basline Generation(Incorrect):
+		Infix: (2 * (20 * 60) + 20 * 60 + 2 * (20 * 60)) * (1 + 1)
+		Postfix: 2 20 60 * * 20 60 * + 2 20 60 * * + 1 1 + * 
+
+		Ground Truth(Correct):
+		Infix: (20 + (20 * 2) + 20 + (20 * 2)) / (20 + (20 * 2))
+		Postfix: 20 20 2 * + 20 + 20 2 * + 20 20 2 * + /
+|=================================================================================================================================|
+
+Prompt: test_1114 
+
+Count: 10
+Incorrect Basline Generation: 
+
+n0=21
+n1=11
+n2=5
+n3=19
+t0=n0-n1 # = 21 - 11 = 10
+t1=t0-n2 # = 10 - 5 = 5
+answer=t1-n3 # = 5 - 19 = -14
+Generated Answer: -14
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=21
+n1=11
+n2=5
+n3=19
+t0=n0+n1
+t1=n2+n3
+answer=t0-t1
+Ground Truth Answer: 8.0
+----------------------------------------------------------------
+Notes: 1 wrong operand in initalization of t0, - should be +, which then produces the wrong value.
+	   1 wrong operand in initalization of t1, - should be +, the wrong value from the previous step is used in this calculation as well
+	   		if both the operands in the previous steps were + instead, this program would be correct.
+
+	Basline Generation(Incorrect):
+	Infix: (21 - 11 - 5) - 19
+	Postfix: 21 11 - 5 - 19 -
+
+	Ground Truth(Correct):
+	Infix: (21 + 11) - (5 + 19)
+	Postfix: 21 11 + 5 19 + -
+|=================================================================================================================================|
+
+Prompt: test_497 #Duplicate, ignore
+
+Count: 11
+Incorrect Baseline Generation: 
+
+n0=14
+n1=2
+n2=6
+n3=7
+t0=n0*n1
+t1=n0*n2
+t2=t0*n3
+t3=t1*n1
+t4=t2+t3
+answer=t4*n3
+
+Generated Answer: 2548
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=14
+n1=6
+n2=2
+t0=n0*n1
+t1=n0*n2
+answer=t0+t1
+Ground Truth Answer: 112.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: (14 * 2 * 7) + ((14 * 6) * (2 * 2) * 7) 
+Postfix: 14 2 * 7 * 14 6 * 2 2 * * 7 * +
+
+Ground Truth(Correct):
+Infix: (14 * 6) + (14 * 2)
+Postfix: 14 6 * 14 2 * +
+|=================================================================================================================================|
+
+Prompt: test_729 
+
+Count: 12
+Incorrect Baseline Generation: 
+
+n0=2
+n1=5000
+n2=3
+n3=8
+t0=n0/n1*n1
+t1=n2/n3*n1
+t2=n1-t0-t1
+answer=t2-n3
+Generated Answer: 3115.0
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=2
+n1=5
+n2=5000
+n3=3
+t0=n0/n1*n2
+t1=n2-t0
+t2=n0/n3*t1
+answer=t1-t2
+Ground Truth Answer: 1000.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: 5000 - (2 / 5000 * 5000) - (3 / 8 * 5000) - 8
+Postfix: 5000 2 5000 / 5000 * - 3 8 / 5000 * - 8 - 
+
+Ground Truth(Correct):
+Infix: 5000 - (2 / 5 * 5000) - (2 / 3 * (5000 - (2 / 5 * 5000)))
+Postfix: 5000 2 5 / 5000 * - 2 3 / 5000 2 5 / 5000 * - * - 
+|=================================================================================================================================|
+
+Prompt: test_194 
+
+Count: 13
+Incorrect Baseline Generation: 
+
+n0=5
+n1=20
+n2=2
+t0=n0*n1
+answer=t0-n2
+Generated Answer: 98
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=5
+n1=2
+n2=20
+t0=n0*n1
+answer=n2-t0
+Ground Truth Answer: 10.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: (5 * 20) - 2
+Postfix: 5 20 * 2 -
+
+Ground Truth(Correct):
+Infix: 20 - (5 * 2)
+Postfix: 20 5 2 * -
+|=================================================================================================================================|
+
+Prompt: test_1305 
+
+Count: 14
+Incorrect Baseline Generation: 
+
+n0=2755
+n1=3075
+n2=7995
+t0=n0+n1
+answer=n2-t0
+Generated Answer: 2165
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=2595
+n1=3075
+n2=7995
+t0=n0+n1
+answer=n2-t0
+Ground Truth Answer: 2325.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: 7995 - (2755 + 3075)
+Postfix: 7995 2755 3075 + -
+
+Ground Truth(Correct):
+
+Infix: 7995 - (2595 + 3075)
+Postfix: 7995 2595 3075 + -
+|=================================================================================================================================|
+
+Prompt: test_1 
+
+Count: 15
+Incorrect Baseline Generation: 
+
+n0=2
+t0=n0*n0
+answer=n0+t0
+Generated Answer: 6
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=2
+t0=n0/n0
+answer=n0+t0
+Ground Truth Answer: 3.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: 2 + (2 * 2)
+Postfix: 2 2 2 * +
+
+Ground Truth(Correct):
+Infix: 2 + (2 / 2)
+Postfix: 2 2 2 / + 
+|=================================================================================================================================|
+
+Prompt: test_375 
+
+Count: 16
+Incorrect Baseline Generation: 
+
+n0=12
+n1=6
+n2=8
+t0=n0*n1
+t1=t0-n0
+answer=t1/n2
+Generated Answer: 7.5
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=12
+n1=6
+n2=8
+t0=n0-n1
+answer=t0*n2
+Ground Truth Answer: 48.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: (12 * 6 - 12) / 8
+Postfix: 12 6 * 12 - 8 /
+
+Ground Truth(Correct):
+Infix: (12 - 6) * 8
+Postfix: 12 6 - 8 *
+|=================================================================================================================================|
+
+Prompt: test_1276 
+
+Count: 17
+Incorrect Baseline Generation: 
+
+n0=20
+n1=15
+t0=n0+n1
+answer=t0*t0
+Generated Answer: 1225
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=20
+n1=2
+n2=15
+t0=n0*n1
+t1=n2*n1
+answer=t0+t1
+Ground Truth Answer: 70.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: (20 + 15) * (20 + 15)
+Postfix: 20 15 + 20 15 + *
+
+Ground Truth(Correct):
+Infix: (20 * 2) + (15 * 2)
+Postfix: 20 2 * 15 2 * +
+|=================================================================================================================================|
+
+Prompt: test_239 
+
+Count: 18
+Incorrect Baseline Generation: 
+
+n0=1000
+n1=30
+n2=0.01
+n3=3
+n4=5
+t0=n0*n1*n2
+t1=n0-t0
+t2=t1*n3/n4
+t3=t1-t2
+answer=t1-t3
+Generated Answer: 420.0
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=1000
+n1=300
+n2=3
+n3=5
+t0=n0-n1 # = 1000 - 300 = 700
+answer=n2/n3*t0 # = 3 / ( 5 * (1000-300) ) #Bad gt
+Ground Truth Answer: 280.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: 1000-1000*30*0.01-(1000-1000*30*0.01-(1000-1000*30*0.01)*3/5
+Postfix: 1000 1000 30 * 0.01 * - 1000 1000 30 * 0.01 * - 1000 1000 30 * 0.01 * - 3 * 5 / - -
+
+Ground Truth(Correct):
+Wrong ground truth program
+Infix: 
+Postfix: 
+|=================================================================================================================================|
+
+Prompt: test_129 
+
+Count: 19
+Incorrect Baseline Generation: 
+
+n0=500
+n1=24
+n2=150
+n3=200
+t0=n0*n1
+t1=t0*n2
+t2=t1*n3
+answer=t2-t0
+Generated Answer: 359988000
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=500
+n1=24
+n2=60
+n3=150
+t0=n0*n1
+t1=t0/n2
+t2=t1-n3
+answer=t1*t2
+Ground Truth Answer: 10000.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: 500 * 24 * 150 * 200 - 500 * 24
+Postfix: 500 24 * 150 * 200 * 500 24 * -  
+
+Ground Truth(Correct):
+Infix: (500 * 24 / 60) * ((500 * 24 / 60) - 150)
+Postfix: 500 24 * 60 / 500 24 * 60 / 150 - *
+|=================================================================================================================================|
+
+Prompt: test_132 
+
+Count: 20
+Incorrect Baseline Generation: 
+
+n0=2
+n1=6
+n2=4
+t0=n0*n0
+t1=n1*n2
+t2=t0+t1
+answer=t2*n1
+Generated Answer: 168
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=2
+n1=4
+t0=n0+n1
+t1=n0+n0
+t2=t0+t1
+answer=t2*t0
+Ground Truth Answer: 60.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: (2*2 + 6*4) * 6
+Postfix: 2 2 * 6 4 * + 6 *
+
+Ground Truth(Correct):
+Infix: (2 + 4 + 2 + 2) * (2 + 4)
+Postfix: 2 4 + 2 + 2 + 2 4 + *
+|=================================================================================================================================|
+
+Prompt: test_978 
+
+Count: 21
+Incorrect Baseline Generation: 
+
+n0=100
+n1=40
+n2=0.01
+t0=n0*n1*n2
+answer=n0+t0
+Generated Answer: 140.0
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=40
+n1=100
+t0=n0/n1*n1
+t1=n1-t0
+answer=n1+t1
+Ground Truth Answer: 160.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: 100 + (100 * 40 * 0.01)
+Postfix: 100 100 40 * 0.01 * +
+
+Ground Truth(Correct):
+Infix: 100 + (100 - (40 / 100 * 100))
+Postfix: 100 100 40 100 / 100 * - +
+|=================================================================================================================================|
+
+Prompt: test_608 
+
+Count: 22
+Incorrect Baseline Generation: 
+
+n0=50
+n1=0.3
+n2=25
+n3=35
+t0=n0*n1
+t1=n0-t0
+t2=n2+n3
+answer=t1-t2
+Generated Answer: -25.0
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=35
+n1=25
+n2=0.3
+n3=50
+t0=n0+n1
+t1=t0*n2
+t2=t0-t1
+answer=n3-t2
+Ground Truth Answer: 8.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: (50 - (50 * 0.3)) - (25 + 35)
+Postfix: 50 50 0.3 * - 25 35 + -
+
+Ground Truth(Correct):
+Infix: 50 - (35 + 25 - (35 + 25) * 0.3)
+Postfix: 50 35 25 + 35 25 + 0.3 * - - 
+|=================================================================================================================================|
+
+Prompt: test_682 
+
+Count: 23
+Incorrect Baseline Generation: 
+
+n0=140
+n1=20
+n2=0.5
+t0=n0+n1
+t1=t0*n2
+answer=t0+t1
+Generated Answer: 240.0
+----------------------------------------------------------------
+
+Ground Truth Program: 
+
+n0=140
+n1=20
+answer=n0-n1
+Ground Truth Answer: 80.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: (140 + 20) + ((140 + 20) * 0.5)
+Postfix: 140 20 + 140 20 + 0.5 * +
+
+Ground Truth(Correct):
+Wrong ground truth program 
+Infix: 
+Postfix: 
+|=================================================================================================================================|
+
+Prompt: test_467 
+
+Count: 24
+Incorrect Baseline Generation: 
+
+n0=2
+n1=1
+n2=80
+t0=n0*n0
+t1=n0*t0
+t2=n1*t0
+t3=n1*t1
+t4=t3+t2+t1
+answer=n2*t4
+Generated Answer: 1600
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=2
+n1=1
+n2=80
+t0=n0*n0
+t1=t0*n0
+t2=t0+t1+n0+n1
+answer=t2*n2
+Ground Truth Answer: 1200.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: 80*(2*2*2 + 1*2*2 + 1*2*2*2)
+Postfix: 80 2 2 * 2 * 1 2 * 2 * + 1 2 * 2 * 2 * + *
+
+Ground Truth(Correct):
+Infix: (2*2*2 + 2*2 + 2 + 1) * 80
+Postfix: 2 2 * 2 * 2 2 * + 2 + 1 + 80 *
+|=================================================================================================================================|
+
+Prompt: test_900 
+
+Count: 25
+Incorrect Baseline Generation: 
+
+n0=13
+n1=10
+n2=5
+t0=n0+n1
+t1=t0+n0
+t2=t1+n2
+answer=t2-t0
+Generated Answer: 18
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=13
+n1=5
+n2=10
+t0=n0+n1
+t1=n2+t0
+answer=t1-n0
+Ground Truth Answer: 15.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: ((13 + 10) + 13 + 5) - (13 + 10)
+Postfix: 13 10 + 13 + 5 + 13 10 + -
+
+Ground Truth(Correct):
+Infix: (10 + (13 + 5)) - 13
+Postfix: 10 13 5 + + 13 -
+|=================================================================================================================================|
+
+Prompt: test_920 
+
+Count: 26
+Incorrect Baseline Generation: 
+
+n0=3
+n1=2
+t0=n0*n0
+t1=t0-n1
+t2=t1*t0
+t3=t2/n0
+answer=n0+n0*t0+n0*t1+t2+t3
+Generated Answer: 135.0
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=3
+n1=7
+t0=n0*n0 # = 3*3
+t1=n1*n0 # = 7*3
+answer=t0+n1+t1+n1+n0
+Ground Truth Answer: 47.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: 3 + 3*3*3 + 3*(3*3-2) + (3*3-2)*3*3 + (( (3*3)-2)*3*3 ) / 3
+Postfix: 3 3 3 * 3 * + 3 3 3 * 2 - * + 3 3 * 2 - 3 * 3 * + 3 3 * 2 - 3 * 3 * 3 / +
+
+Ground Truth(Correct):
+Infix: 3*3+7+7*3+7+3
+Postfix: 3 3 * 7 + 7 3 * + 7 + 3 +
+|=================================================================================================================================|
+
+Prompt: test_731 
+
+Count: 27
+Incorrect Baseline Generation: 
+
+n0=8
+n1=3
+n2=9
+n3=2
+n4=6
+n5=1
+t0=n0/n1 # = 8/3
+t1=n2*n3 # = 9*2
+t2=n4*n5 # = 6*1
+t3=t0+t1+t2 # = 8/3 + 9*2 + 6*1
+answer=t3/n1 # = (8/3 + 9*2 + 6*1) / 3
+Generated Answer: 8.88888888888889
+----------------------------------------------------------------
+
+Ground Truth Program: 
+
+n0=8
+n1=3
+n2=9
+n3=2
+n4=6
+n5=1
+t0=n0*n1
+t1=n2*n3
+t2=n4*n5
+t3=t1+t2
+answer=t3/t3
+Ground Truth Answer: 1.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: (8/3 + 9*2 + 6*1) / 3
+Postfix: 8 3 / 9 2 * + 6 1 * + 3 / 
+
+Ground Truth(Correct):
+Infix: (9 * 2 + 6 * 1) / (9 * 2 + 6 * 1)
+Postfix: 9 2 * 6 1 * + 9 2 * 6 1 * + /
+|=================================================================================================================================|
+
+Prompt: test_65 
+
+Count: 28
+Incorrect Baseline Generation: 
+
+n0=2
+n1=3
+n2=4
+t0=n0*n1
+t1=n2*n1
+answer=t0+t1
+Generated Answer: 18
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=2
+n1=4
+t0=n0/n0 # = 2/2
+t1=n0+t0 # = 2 + 2/2
+t2=t1*t1 # = (2 + 2/2)*(2 + 2/2)
+answer=t2*n1 # = (2 + 2/2)*(2 + 2/2)*(4)
+Ground Truth Answer: 36.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: (2 * 3) + (4 * 3)
+Postfix: 2 3 * 4 3 * +
+
+Ground Truth(Correct):
+Infix: (2 + 2/2)*(2 + 2/2)*(4)
+Postfix: 2 2 2 / + 2 2 2 / + * 4 * 
+|=================================================================================================================================|
+
+Prompt: test_994 
+
+Count: 29
+Incorrect Baseline Generation: 
+
+n0=20
+n1=60
+n2=2
+n3=1
+t0=n0*n1
+t1=n2*t0
+t2=t1+t0+t1
+t3=n3+n3
+answer=t2*t3
+Generated Answer: 12000
+----------------------------------------------------------------
+Ground Truth Program: 
+
+n0=20
+n1=2
+t0=n0*n1 # = 20 * 2
+t1=n0+t0 # = 20 + 20 * 2
+t2=n0+t0+t1 # = 20 + 20 * 2 + 20 + 20 * 2
+answer=t2/t1 # = (20 + 20 * 2 + 20 + 20 * 2) / (20 + 20 * 2)
+Ground Truth Answer: 2.0
+----------------------------------------------------------------
+Notes: 
+
+Basline Generation(Incorrect):
+Infix: ((2 * (20 * 60)) + (20 * 60) + (2 * (20 * 60))) * (1 + 1)
+Postfix:  2 20 60 * * 20 60 * + 2 20 60 * * + 1 1 + *
+
+Ground Truth(Correct):
+Infix: (20 + 20 * 2 + 20 + 20 * 2) / (20 + 20 * 2)
+Postfix: 20 20 2 * + 20 + 20 2 * + 20 20 2 * + /
+|=================================================================================================================================|
+
+
+
